@@ -1,0 +1,42 @@
+{
+  "video": "demo/teaser/fly-ocr-teaser.mp4",
+  "frames": 960,
+  "seconds": 40.0,
+  "fps": 24.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "sha256": "d183ff400a1cc198f8ecd4ead4897f940023266dc52af3532458b85eaddb2d87",
+  "full_decode": true,
+  "coverage": [
+    {
+      "id": "calibrated-labels",
+      "frames": 288,
+      "first_event": "r01-g04",
+      "last_event": "r02-g21",
+      "selected_glyphs": 40,
+      "rendered_trace_verified": true
+    },
+    {
+      "id": "income-table",
+      "frames": 312,
+      "first_event": "r01-c01-g01",
+      "last_event": "r07-c03-g07",
+      "selected_glyphs": 108,
+      "rendered_trace_verified": true
+    },
+    {
+      "id": "calibrated-labels-more",
+      "frames": 360,
+      "first_event": "r01-g01",
+      "last_event": "r05-g20",
+      "selected_glyphs": 105,
+      "rendered_trace_verified": true
+    }
+  ],
+  "previous_videos_unchanged": {
+    "demo/compilation/fly-ocr.mp4": "aeb4ccd9544199178f794366a9127a786ec753347eb174dc600d01fb215edcf1",
+    "demo/social/fly-ocr-social.mp4": "9a758dd1a7f5d31be0af769cbb280757e1b1d342f9c4e12bbe942177b6aa2cdc"
+  }
+}

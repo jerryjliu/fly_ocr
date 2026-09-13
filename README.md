@@ -1,33 +1,31 @@
 # Fly OCR
 
-**Can a fixed fruit-fly circuit learn to recognize printed characters?** This experiment feeds glyph pixels into a MaleCNS connectome simulation and trains a small decoder on its activity. It runs locally on a Mac, recognizes letters and numbers, and preserves its mistakes.
+**A simulated fly circuit recognizes printed letters and numbers from PDF pixels.** Fly OCR runs locally on a Mac, reconstructs selected tables of values, and shows the character scans, eye samples and neural activity behind each prediction.
 
-[![A rendered fly reads beside the recorded OCR](demo/social/trained-labels-start.png)](https://github.com/jerryjliu/fly_ocr/releases/download/social-v1/fly-ocr-social.mp4)
+[![A rendered fly reads beside the recorded OCR](demo/teaser/calibrated-labels-start.png)](https://github.com/jerryjliu/fly_ocr/releases/download/teaser-v1/fly-ocr-teaser.mp4)
 
-**[Watch the 1:45 social cut](https://github.com/jerryjliu/fly_ocr/releases/download/social-v1/fly-ocr-social.mp4)** · [Original 2:56 compilation](https://github.com/jerryjliu/fly_ocr/releases/download/v0.1.0/fly-ocr.mp4) · **[Research report (PDF)](docs/fly-ocr-research-report.pdf)** · [Report source](docs/research-report.md) · [Model card](MODEL_CARD.md)
+**[Watch the 40-second teaser](https://github.com/jerryjliu/fly_ocr/releases/download/teaser-v1/fly-ocr-teaser.mp4)** · **[Research report (PDF)](docs/fly-ocr-research-report.pdf)** · [Model card](MODEL_CARD.md) · [Longer walkthrough](https://github.com/jerryjliu/fly_ocr/releases/download/social-v1/fly-ocr-social.mp4) · [Original compilation](https://github.com/jerryjliu/fly_ocr/releases/download/v0.1.0/fly-ocr.mp4)
 
-The social cut opens on character recognition and puts an animated 3D fly on the source PDF beside the results. Its body motion is illustrative; all OCR output, retinal samples and spike counts come from the saved experiment. [Video methods and reproduction](docs/social-video.md).
-
-The circuit retains **166,700 neurons and 25,582,938 connections**. All internal weights are frozen. A 64-unit nonlinear decoder learns from four bins of 1,024 downstream neurons: **266,628 trained parameters**, one **100 ms** circuit presentation per glyph. It is an exploratory model with simplified dynamics and engineered visual input, not evidence that a biological fly reads.
+The teaser leads with recognized text and a successful table, then introduces the idea and points to the report. The 3D fly is illustrative animation beside actual recorded OCR. Development history and ablations live in the [report](docs/research-report.md) and longer videos. [Teaser edit and reproduction](docs/teaser-video.md).
 
 ## What works
 
-| Measurement | Original letter input | Calibrated letter input |
-| --- | --- | --- |
-| 68-class benchmark, 1,632 glyphs | 74.9% | **87.6%** |
-| Letters subset, 1,248 glyphs | 71.9% | **85.0%** |
-| Two fresh fonts, 544 glyphs | 77.8% | **84.9%** |
-| Eight PDF lines, 176 reference characters | 19.3% character error | **5.7% character error** |
+| Capability | Measured result |
+| --- | --- |
+| Letters, digits and punctuation | **87.6%** on a 1,632-glyph, 68-class benchmark |
+| Printed letters | **85.0%** on the 1,248-letter subset |
+| PDF text recognition | **5.7% character error** across eight lines / 176 reference characters |
+| Tables of numeric values | **21/21** and **44/45** exact cells in two selected crops |
 
-Only **1/8 PDF lines is exactly correct**. Font-family diversity is small, and the older benchmark had already been inspected before this iteration. The separate numeric checkpoint scores 93.9% on its 800-glyph test; selected numeric tables reach 21/21 and 44/45 exact cells. A 3-degree tilt breaks segmentation. [All results and limitations](docs/research-report.md).
+It still makes mistakes: only **1/8 PDF lines is exactly correct**, and a 3-degree tilt breaks segmentation. These are small experiments on limited fonts and selected document crops. Tables use a separate numeric checkpoint; page geometry supplies their rows and columns. [Evaluation protocol, baselines and limitations](docs/research-report.md).
 
-The main gain came from fixing missing input coverage. A square-root count transform adds a modest improvement without a larger decoder. A conventional raw-pixel model is better on the earlier digit task; this project does not establish a practical or biological OCR advantage.
+## The idea
 
-## Why the eyes look like eyes again
+The circuit retains **166,700 neurons and 25,582,938 connections** from MaleCNS. Internal weights stay frozen; a small decoder learns to recognize characters from the circuit's activity. It is an exploratory model with simplified dynamics and engineered visual input, not evidence that a biological fly reads or that fly circuits improve conventional OCR.
 
-The compound-eye panel shows **recorded sampled light at schematic positions derived from the original left/right column map**. Each value keeps its receptor identity. The calibrated model still samples the full glyph; changing the drawing leaves all predictions unchanged.
+The letter decoder has 64 hidden units and 266,628 trained parameters, using four bins from 1,024 downstream neurons after a 100 ms circuit presentation. The report explains input sampling, decoder choices, comparisons and ablations.
 
-The oval outlines and hexagonal facets are presentation graphics, not measured optics or reconstructed ommatidia. The neural panel separately shows actual recorded spike counts. Original-input checkpoints remain available for the accuracy/fidelity comparison. [Atlas methods](docs/retinal-atlas.md).
+The eye panel places recorded light samples on a schematic left/right receptor atlas; the activity panel shows recorded spike counts. The drawn eye surfaces and animated fly body are presentation graphics. [Atlas methods](docs/retinal-atlas.md) · [3D animation methods](docs/social-video.md).
 
 ## Watch locally without a graph download
 
@@ -119,13 +117,16 @@ After installing viewer dependencies:
 uv run --extra video python scripts/export-video.py --examples calibrated-labels,calibrated-heading,calibrated-labels-more
 uv run --extra video python scripts/export-compilation.py
 uv run --extra video python scripts/export-social.py
+uv run --extra video python scripts/export-teaser.py
 uv run --extra report python scripts/report-figures.py
 uv run --extra report python scripts/build-research-report.py
 ```
 
 Video rendering uses a bundled FFmpeg binary. The original compilation uses the viewer's drawing function and is a captioned 2:56 MP4, 1920 x 1080 at 24 fps, without audio. Individual examples remain 40 seconds each. The separate 1:45 social cut uses a dedicated canvas layout and a procedural Three.js fly, rendered in headless Chrome. Its first frame already contains a prediction. All video manifests record source-run hashes; the social manifest additionally fingerprints its scene, layout and timing code.
 
-The social renderer uses an installed macOS Chrome automatically. Elsewhere, run `npx playwright install chromium` in `viewer`, or set `FLYOCR_CHROME` to an installed Chrome/Chromium executable. Use `FLYOCR_PREVIEW_ONLY=1` for still previews. Neither the original compilation nor its release asset is overwritten.
+The 40-second teaser has its own renderer and edit list. It presents final capabilities first and saves technical comparisons for the report. Earlier videos remain unchanged.
+
+The social and teaser renderers use an installed macOS Chrome automatically. Elsewhere, run `npx playwright install chromium` in `viewer`, or set `FLYOCR_CHROME` to an installed Chrome/Chromium executable. Use `FLYOCR_PREVIEW_ONLY=1` for still previews. Neither the original compilation nor its release asset is overwritten.
 
 ## Repository contents and provenance
 

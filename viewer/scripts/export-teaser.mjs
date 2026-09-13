@@ -1,0 +1,65 @@
+// Deterministic offline WebGL + canvas rendering. Uses no remote assets/services.
+import {build} from 'esbuild';
+import {chromium} from 'playwright';
+import {createServer} from 'node:http';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {resolve,extname,relative} from 'node:path';
+import {spawn} from 'node:child_process';
+import {once} from 'node:events';
+import {createHash} from 'node:crypto';
+
+const root=resolve('.'),out=resolve('../demo/teaser'),cache=resolve('.cache/teaser');
+mkdirSync(out,{recursive:true});mkdirSync(cache,{recursive:true});
+const sha=p=>createHash('sha256').update(readFileSync(p)).digest('hex');
+await build({entryPoints:['scripts/teaser-entry.ts'],bundle:true,platform:'browser',format:'iife',outfile:cache+'/teaser.js',sourcemap:false});
+writeFileSync(cache+'/index.html','<!doctype html><html><head><meta charset="utf-8"><title>Fly OCR teaser render</title><style>html,body{margin:0;background:#080f15}canvas{display:block;width:1920px;height:1080px}</style></head><body><script src="teaser.js"></script></body></html>');
+const mime={'.html':'text/html','.js':'text/javascript','.json':'application/json','.png':'image/png','.ttf':'font/ttf'};
+const server=createServer((req,res)=>{
+  const path=resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
+  if(relative(root,path).startsWith('..')){res.writeHead(403).end();return;}
+  try{res.setHeader('Content-Type',mime[extname(path)]||'application/octet-stream');res.end(readFileSync(path));}catch{res.writeHead(404).end();}
+});
+await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+let browser,encoder;
+try{
+  const executablePath=process.env.FLYOCR_CHROME||undefined;
+  browser=await chromium.launch({headless:true,executablePath,args:['--enable-unsafe-swiftshader','--disable-background-timer-throttling']});
+  const page=await browser.newPage({viewport:{width:1920,height:1080},deviceScaleFactor:1});
+  const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+  await page.goto(`http://127.0.0.1:${server.address().port}/.cache/teaser/index.html`);
+  await page.waitForFunction(()=>window.teaser?.ready||window.teaserError,{},{timeout:120000});
+  const failure=await page.evaluate(()=>window.teaserError);if(failure)throw new Error(failure);
+  const chapters=await page.evaluate(()=>window.teaser.chapters),fps=24,preview=!!process.env.FLYOCR_PREVIEW_ONLY;
+  let encoderDone,encoderErrors='';
+  if(!preview){
+    encoder=spawn(process.env.FFMPEG_BIN||'ffmpeg',['-y','-f','image2pipe','-vcodec','png','-r',String(fps),'-i','pipe:0','-an','-c:v','libx264','-preset','fast','-crf','19','-pix_fmt','yuv420p','-movflags','+faststart',out+'/fly-ocr-teaser.mp4'],{stdio:['pipe','ignore','pipe']});
+    encoder.stderr.on('data',d=>{encoderErrors=(encoderErrors+d.toString()).slice(-6000);});encoder.stdin.on('error',()=>{});encoderDone=once(encoder,'close');
+  }
+  const manifest=[];let offset=0;
+  for(let i=0;i<chapters.length;i++){
+    const chapter=chapters[i],frames=chapter.seconds*fps,selected=[0,Math.floor(frames*.48),frames-1],eventTrace=[];
+    for(const f of preview?selected:Array.from({length:frames},(_,index)=>index)){
+      const result=await page.evaluate(({i,f,fps})=>{
+        const state=window.teaser.frame(i,f/fps);
+        return {png:window.teaser.canvas.toDataURL('image/png').split(',')[1],state};
+      },{i,f,fps});
+      const png=Buffer.from(result.png,'base64');eventTrace.push(result.state.event_id);
+      if(selected.includes(f))writeFileSync(`${out}/${chapter.id}${f===0?'-start':f===frames-1?'-end':''}.png`,png);
+      if(f===0&&result.state.done!==chapter.startEvent)throw new Error('Unexpected opening event');
+      if(f===frames-1&&!result.state.finished)throw new Error('Scene did not complete its recording');
+      if(!preview){if(encoder.exitCode!==null)throw new Error(encoderErrors);if(!encoder.stdin.write(png))await once(encoder.stdin,'drain');}
+      if(!preview&&f%240===0)console.log(`Rendering ${chapter.id}: ${f}/${frames} frames`);
+    }
+    manifest.push({...chapter,start_seconds:offset,frame_event_ids:eventTrace,run_sha256:sha(`public/examples/${chapter.id}/run.json`)});offset+=chapter.seconds;
+    console.log('Rendered:',chapter.id);
+  }
+  if(errors.length)throw new Error(errors.join('\n'));
+  if(!preview){
+    encoder.stdin.end();const [code]=await encoderDone;if(code!==0)throw new Error(encoderErrors);
+    const sources=['lib/social-fly.ts','lib/teaser-layout.ts','lib/teaser-timeline.ts','lib/retina.ts','scripts/teaser-entry.ts','scripts/export-teaser.mjs'];
+    writeFileSync(out+'/manifest.json',JSON.stringify({format:1,seconds:offset,fps,width:1920,height:1080,frames:offset*fps,audio:false,chapters:manifest,video_sha256:sha(out+'/fly-ocr-teaser.mp4'),source_sha256:Object.fromEntries(sources.map(p=>['viewer/'+p,sha(p)])),disclosure:'Recorded OCR with edited pacing. Original procedural 3D fly follows the scan through keyframed animation; its motion is not generated by the neural circuit and does not affect inference. Eye atlas shows sampled light; body-eye texture is decorative. Errors preserved. Previous videos retained. Teaser uses final results only; the opening starts at event 4 with the recorded word Cash already visible.'},null,2)+'\n');
+  }
+}finally{
+  if(encoder&&encoder.exitCode===null)encoder.kill();
+  if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));
+}

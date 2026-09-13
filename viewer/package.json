@@ -17,7 +17,8 @@
     "video": "npm run bundle && esbuild scripts/export-video.ts --bundle --platform=node --format=cjs --packages=external --outfile=.cache/export-video.cjs && node .cache/export-video.cjs",
     "check:replay": "npm run bundle && esbuild lib/replay.ts --bundle --platform=node --format=cjs --outfile=.cache/replay-check.cjs && node scripts/check-timeline.mjs",
     "compilation": "npm run bundle && esbuild scripts/compilation.ts --bundle --platform=node --format=cjs --packages=external --outfile=.cache/compilation.cjs && node .cache/compilation.cjs",
-    "social": "npm run bundle && node scripts/export-social.mjs"
+    "social": "npm run bundle && node scripts/export-social.mjs",
+    "teaser": "npm run bundle && node scripts/export-teaser.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
