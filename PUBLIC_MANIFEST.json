@@ -2,8 +2,7 @@
   "format": 1,
   "files": {
     ".gitattributes": "970a071f10d14e4e78827be2e83b934beb7eec5524817070a59005a1c863a97e",
-    ".github/workflows/ci.yml": "968aa57dee74dd52128cb6ddb813ae9b21e64acda643fda362596809eee3e818",
-    ".github/workflows/verify.yml": "c0ab889f6148d2dd585759240e6147f1e8a5c97567fe1b0735c2d4561cf6f4f5",
+    ".github/workflows/ci.yml": "3d86fcd76cb801f0368339b08629767add2779c8d87de7db9547adb006ffa2f3",
     ".gitignore": "490f96ec37fd1af6071bd72e739291be0d8c2232b9d66dd72a6d02b491e5ba8d",
     ".python-version": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
     "CITATION.cff": "cac9c81f49957ca533fa8788d12303e061cff2c41e03042df46c93c79c77be83",
@@ -1320,7 +1319,7 @@
     "reports/public-release/installed-inference.json": "59ee76a776e7066df0be5c22b962f44f056d096f3001be168181f5c85beec933",
     "reports/public-release/media-verification.json": "c9a87a5f1ae7e624bcd1d20420e97fc6f2941d709286c0d42c23be04b2eeff50",
     "reports/public-release/replay-verification.json": "0be9990f190a66f36dc63fd0c398b84fac4b312a6404f4a9f74e6cab6d14790b",
-    "reports/public-release/summary.json": "187504b444e0dfb290bd5910f775b0fc0a27458638c062798373be96d94d378f",
+    "reports/public-release/summary.json": "3a31ba267aec70121f85be1691f70c487ad2f9324a1e44151786c2278e8f6af6",
     "reports/random-graph-benchmark.json": "5c93d30b4bf08b952f176629507dcfe1fe51fb5b80c1986d354c69de3eb1ad4d",
     "reports/retinal-atlas/verification.json": "9ccbf17ddd34c7c05f1c656d2aa919d9ab7d78170a2a9c213a2ae1bde820f78b",
     "reports/retinal-diagnostic/coverage.png": "2188e026616646f1f3946b897ef48df28f0402a2900104063f36f10bc6aaeef9",
@@ -1374,7 +1373,7 @@
     "src/flyocr/data/glyphs.py": "0cc62fbd083a2e62dc52eaaf85dd305703b2eac9e853b0b859fc5dca2a48609b",
     "src/flyocr/demo/__init__.py": "6894adf562a7468d945534cc8ce910c18a20927e10410dcf853cbf131b5957af",
     "src/flyocr/demo/record.py": "a0c56187194e460bfacb574161208ae37be531ea8aab36c3590eeba32113b860",
-    "src/flyocr/demo/schema.py": "5fee85857887ceeae7a6b453d1959c732054f55f5d90f4d1583cfb65fffffc07",
+    "src/flyocr/demo/schema.py": "eae1d767926c41f9c75471a2e79555c15401087d722440fa4a1f997fb8a3f370",
     "src/flyocr/eval/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "src/flyocr/eval/metrics.py": "a10537623d7221f60711963dda7bd0d8aadae37aac5e33aab6c1ee61cd80b8c8",
     "src/flyocr/eval/pdf.py": "0b76292f81642f00c87fc4e501142c10909802b4d2b6ab2047d9e462f8dd76eb",
@@ -1404,7 +1403,7 @@
     "tests/test_neural_dynamics.py": "482ebf7c747e9b8a51812065772a6422ad167a50f90c9c419a72963d06d80fc6",
     "tests/test_pdf_pipeline.py": "a85775915045bc6b1b864a831784bd380cf2536d2ff2d82d242fbb5025abbbb1",
     "tests/test_readout.py": "41c8d3298fc75f97f05dfc8a94c8812f65f20ef429e3e9d47a1a8f22700a0ce9",
-    "tests/test_replay.py": "9fe2839dc57fc369114b021455a1bc072662242b11d594a01411cd369d72eb11",
+    "tests/test_replay.py": "52b986da34b7f4630b0edbf7c575071fd05bcb31a7d2a3375251752ddecc85d3",
     "tests/test_retinal_atlas.py": "799a799052dd58214fbe3823a422ca0552ac49e3e74f720311d0470aa08a45b7",
     "tests/test_table.py": "e5ed164e27e47ae5d0ccc52704815ff5f22ebb7df66a63c47005bda9287beccd",
     "uv.lock": "62d9213b19e58a7294a173580b8007585b495bf6919d7e00a4bfedbf3fbbcb9b",
@@ -1432,7 +1431,7 @@
     "viewer/tsconfig.json": "ef428709c225e532fc5e06e8d614eb7b7730330170cab4432feb553eb243829d",
     "viewer/vite.config.ts": "4e964a50b3233cef062f3abad9f7886f0b8c27e0206bebf9f4b7e49bfa3830ea"
   },
-  "files_count": 1430,
+  "files_count": 1429,
   "audit": {
     "credential_patterns": [
       "private_key",

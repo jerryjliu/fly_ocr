@@ -37,7 +37,12 @@ def verify(directory, artifact):
             expected = [g for r in segmentation["rows"] for g in r["glyphs"]]
             require(len(expected) == len(run["events"]))
             for glyph,event in zip(expected,run["events"]):
-                require(all(glyph[k] == event[k] for k in ("id","box","prefix","sha256")))
+                require(all(glyph[k] == event[k] for k in ("id","box","prefix")))
+                # PNG compression bytes can differ across zlib/Pillow builds.
+                # Compare regenerated content; the saved file's original hash
+                # remains independently checked below for every event.
+                with Image.open(Path(temp)/glyph["image"]) as regenerated, Image.open(directory/event["image"]) as saved:
+                    require(np.array_equal(np.asarray(regenerated.convert("L")), np.asarray(saved.convert("L"))))
     head = np.load(artifact/"readout.npz", allow_pickle=False)
     seen, rows = set(), {}
     for index, e in enumerate(run["events"]):

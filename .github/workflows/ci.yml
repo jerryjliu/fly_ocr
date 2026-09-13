@@ -1,5 +1,7 @@
 name: numerical-and-integrity-checks
 on: [push, pull_request]
+permissions:
+  contents: read
 jobs:
   python:
     runs-on: ubuntu-latest
@@ -8,7 +10,8 @@ jobs:
       - uses: astral-sh/setup-uv@v6
       - run: uv sync --python 3.11 --extra dev --locked
       - run: uv run pytest -q
-      - run: uv run flyocr verify-replay
+      - run: uv run python scripts/verify-recordings.py
+      - run: uv run python scripts/package-public.py --audit-only
   viewer:
     runs-on: ubuntu-latest
     steps:

@@ -1,5 +1,5 @@
 {
-  "python_tests_passed": 25,
+  "python_tests_passed": 26,
   "recordings_verified": 11,
   "recorded_events_verified": 983,
   "videos_fully_decoded": 12,
@@ -12,5 +12,6 @@
   "fresh_installed_inference_matched": true,
   "atlas_inference_change": false,
   "large_graph_distributed": false,
-  "cloud_execution_claimed": false
+  "cloud_execution_claimed": false,
+  "png_reencoding_regression_test": true
 }

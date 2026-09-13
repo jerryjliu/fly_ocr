@@ -43,3 +43,33 @@ def test_letter_replay_recomputes_geometric_spaces(tmp_path):
     altered["rows"][0]["raw"]="".join(e.get("prefix","")+e["character"] for e in altered["events"])
     save_json(tmp_path/"run.json",altered)
     with pytest.raises(ValueError,match="prediction mismatch"):verify(tmp_path,"artifacts/letters")
+
+
+def test_regenerated_png_encoding_is_not_pixel_identity(monkeypatch):
+    from PIL import Image
+    import numpy as np
+    import flyocr.pdf.text as text_pipeline
+    from flyocr.common import digest_file
+    source = Path('demo/examples/trained-heading')
+    original_prepare = text_pipeline.prepare_text
+    change_pixel = False
+
+    def reencoded(*args, **kwargs):
+        segmentation = original_prepare(*args, **kwargs)
+        output = Path(args[1])
+        for row in segmentation['rows']:
+            for glyph in row['glyphs']:
+                path = output/glyph['image']
+                with Image.open(path) as im:
+                    pixels = np.asarray(im.convert('L')).copy()
+                if change_pixel: pixels[0, 0] = 0
+                Image.fromarray(pixels).save(path, compress_level=0)
+                assert digest_file(path) != glyph['sha256']
+                glyph['sha256'] = digest_file(path)
+        return segmentation
+
+    monkeypatch.setattr(text_pipeline, 'prepare_text', reencoded)
+    assert verify(source, 'artifacts/letters')['verified_events'] == 13
+    change_pixel = True
+    with pytest.raises(ValueError):
+        verify(source, 'artifacts/letters')
