@@ -2,9 +2,11 @@
 
 **Can a fixed fruit-fly circuit learn to recognize printed characters?** This experiment feeds glyph pixels into a MaleCNS connectome simulation and trains a small decoder on its activity. It runs locally on a Mac, recognizes letters and numbers, and preserves its mistakes.
 
-[![Watch the compilation](demo/compilation/intro.png)](https://github.com/jerryjliu/fly_ocr/releases/download/v0.1.0/fly-ocr.mp4)
+[![A rendered fly reads beside the recorded OCR](demo/social/trained-labels-start.png)](https://github.com/jerryjliu/fly_ocr/releases/download/social-v1/fly-ocr-social.mp4)
 
-**[Watch / download the compilation](https://github.com/jerryjliu/fly_ocr/releases/download/v0.1.0/fly-ocr.mp4)** · **[Research report (PDF)](docs/fly-ocr-research-report.pdf)** · [Report source](docs/research-report.md) · [Model card](MODEL_CARD.md)
+**[Watch the 1:45 social cut](https://github.com/jerryjliu/fly_ocr/releases/download/social-v1/fly-ocr-social.mp4)** · [Original 2:56 compilation](https://github.com/jerryjliu/fly_ocr/releases/download/v0.1.0/fly-ocr.mp4) · **[Research report (PDF)](docs/fly-ocr-research-report.pdf)** · [Report source](docs/research-report.md) · [Model card](MODEL_CARD.md)
+
+The social cut opens on character recognition and puts an animated 3D fly on the source PDF beside the results. Its body motion is illustrative; all OCR output, retinal samples and spike counts come from the saved experiment. [Video methods and reproduction](docs/social-video.md).
 
 The circuit retains **166,700 neurons and 25,582,938 connections**. All internal weights are frozen. A 64-unit nonlinear decoder learns from four bins of 1,024 downstream neurons: **266,628 trained parameters**, one **100 ms** circuit presentation per glyph. It is an exploratory model with simplified dynamics and engineered visual input, not evidence that a biological fly reads.
 
@@ -116,11 +118,14 @@ After installing viewer dependencies:
 ```sh
 uv run --extra video python scripts/export-video.py --examples calibrated-labels,calibrated-heading,calibrated-labels-more
 uv run --extra video python scripts/export-compilation.py
+uv run --extra video python scripts/export-social.py
 uv run --extra report python scripts/report-figures.py
 uv run --extra report python scripts/build-research-report.py
 ```
 
-Video rendering uses a bundled FFmpeg binary and the same drawing function as the viewer. The compilation is a captioned 2:56 MP4, 1920 x 1080 at 24 fps, without audio. Its chapter manifest records source-run hashes. Individual examples remain 40 seconds each.
+Video rendering uses a bundled FFmpeg binary. The original compilation uses the viewer's drawing function and is a captioned 2:56 MP4, 1920 x 1080 at 24 fps, without audio. Individual examples remain 40 seconds each. The separate 1:45 social cut uses a dedicated canvas layout and a procedural Three.js fly, rendered in headless Chrome. Its first frame already contains a prediction. All video manifests record source-run hashes; the social manifest additionally fingerprints its scene, layout and timing code.
+
+The social renderer uses an installed macOS Chrome automatically. Elsewhere, run `npx playwright install chromium` in `viewer`, or set `FLYOCR_CHROME` to an installed Chrome/Chromium executable. Use `FLYOCR_PREVIEW_ONLY=1` for still previews. Neither the original compilation nor its release asset is overwritten.
 
 ## Repository contents and provenance
 

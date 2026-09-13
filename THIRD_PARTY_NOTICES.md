@@ -18,6 +18,10 @@ Original project code is MIT. Separate source material retains its license.
   reference for simplified dynamics. No upstream graph or model code bundled.
 - **Google Fonts**: downloaded families use SIL Open Font License 1.1.
   Each included font has its upstream notice and checksum in `assets/fonts/`.
+  The social video additionally uses **IBM Plex Mono** for distinguishable
+  `I`, `l` and `1` in raw predictions. Display font and SIL OFL notice are in
+  `viewer/public/fonts/IBMPlexMono-Regular.ttf` and `IBMPlexMono-OFL.txt`;
+  source: https://github.com/google/fonts/tree/main/ofl/ibmplexmono.
 - **Microsoft 2025 annual report**: Microsoft; public SEC source in
   `examples/microsoft-2025/source.json`. The complete PDF is downloaded to
   the ignored data cache. A limited attributed page/crop is used for this

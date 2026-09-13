@@ -16,7 +16,8 @@
     "bundle": "node scripts/bundle.mjs",
     "video": "npm run bundle && esbuild scripts/export-video.ts --bundle --platform=node --format=cjs --packages=external --outfile=.cache/export-video.cjs && node .cache/export-video.cjs",
     "check:replay": "npm run bundle && esbuild lib/replay.ts --bundle --platform=node --format=cjs --outfile=.cache/replay-check.cjs && node scripts/check-timeline.mjs",
-    "compilation": "npm run bundle && esbuild scripts/compilation.ts --bundle --platform=node --format=cjs --packages=external --outfile=.cache/compilation.cjs && node .cache/compilation.cjs"
+    "compilation": "npm run bundle && esbuild scripts/compilation.ts --bundle --platform=node --format=cjs --packages=external --outfile=.cache/compilation.cjs && node .cache/compilation.cjs",
+    "social": "npm run bundle && node scripts/export-social.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
@@ -33,11 +34,14 @@
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "@types/three": "0.186.0",
     "@vitejs/plugin-react": "6.0.2",
     "esbuild": "0.28.1",
     "oxfmt": "0.61.0",
     "oxlint": "1.76.0",
+    "playwright": "1.63.0",
     "tailwindcss": "4.2.1",
+    "three": "0.186.0",
     "typescript": "5.9.3",
     "vite": "8.3.0"
   },

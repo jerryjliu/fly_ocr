@@ -1,0 +1,58 @@
+{
+  "video": "demo/social/fly-ocr-social.mp4",
+  "frames": 2520,
+  "seconds": 105.0,
+  "fps": 24.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "sha256": "9a758dd1a7f5d31be0af769cbb280757e1b1d342f9c4e12bbe942177b6aa2cdc",
+  "full_decode": true,
+  "coverage": [
+    {
+      "id": "trained-labels",
+      "events": 43,
+      "every_event_visible": true,
+      "first_frame_prediction": "C"
+    },
+    {
+      "id": "calibrated-labels",
+      "events": 43,
+      "every_event_visible": true,
+      "first_frame_prediction": "C"
+    },
+    {
+      "id": "calibrated-heading",
+      "events": 13,
+      "every_event_visible": true,
+      "first_frame_prediction": "B"
+    },
+    {
+      "id": "calibrated-labels-more",
+      "events": 105,
+      "every_event_visible": true,
+      "first_frame_prediction": "O"
+    },
+    {
+      "id": "income-table",
+      "events": 108,
+      "every_event_visible": true,
+      "first_frame_prediction": "2"
+    },
+    {
+      "id": "cash-flow",
+      "events": 299,
+      "every_event_visible": true,
+      "first_frame_prediction": "("
+    },
+    {
+      "id": "tilted-table",
+      "events": 121,
+      "every_event_visible": true,
+      "first_frame_prediction": "2"
+    }
+  ],
+  "original_compilation_unchanged": true,
+  "original_video_sha256": "aeb4ccd9544199178f794366a9127a786ec753347eb174dc600d01fb215edcf1"
+}
