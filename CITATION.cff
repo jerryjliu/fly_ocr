@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you discuss this experiment, cite the repository and its report; also credit the underlying MaleCNS dataset and DOOMFLY code."
+title: "Fly OCR: A fixed fly circuit, a small trained decoder"
+authors:
+  - family-names: Liu
+    given-names: Jerry
+type: software
+version: 0.1.0
+date-released: 2026-09-12
+url: "https://github.com/jerryjliu/fly_ocr"
+license: MIT

@@ -1,0 +1,56 @@
+{
+  "model_id": "e5a1d1563401d68d151fb227b89a66b837b9ae44c1c5dff1336723392c57b97e",
+  "canonical_reset_order_independent": true,
+  "weights_read_only": true,
+  "weight_hash_unchanged": true,
+  "stimuli": {
+    "blank": {
+      "total_spikes": [
+        17569,
+        18320,
+        18888,
+        19697
+      ],
+      "downstream_spikes": [
+        2335,
+        2688,
+        2513,
+        2468
+      ],
+      "active_downstream_cells": 2529,
+      "wall_seconds": 0.29218483390286565
+    },
+    "flash": {
+      "total_spikes": [
+        23327,
+        20178,
+        23214,
+        32011
+      ],
+      "downstream_spikes": [
+        2238,
+        2566,
+        2479,
+        2364
+      ],
+      "active_downstream_cells": 2581,
+      "wall_seconds": 0.33741929242387414
+    },
+    "bar": {
+      "total_spikes": [
+        18333,
+        18701,
+        19583,
+        25324
+      ],
+      "downstream_spikes": [
+        2338,
+        2694,
+        2492,
+        2528
+      ],
+      "active_downstream_cells": 2597,
+      "wall_seconds": 0.4167932909913361
+    }
+  }
+}

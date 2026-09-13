@@ -1,0 +1,11 @@
+{
+  "method": "minimum-displacement rectangular sampling grid v1",
+  "learned": false,
+  "uses_labels": false,
+  "unique_sites": 825,
+  "grid_width": 33,
+  "grid_height": 25,
+  "rms_displacement": 0.2022000498352146,
+  "scope": "Engineered pixel-to-retina calibration; not biological visual-field reconstruction",
+  "pixel_support_fraction": 1.0
+}

@@ -1,0 +1,9 @@
+{
+  "rows": [
+    {
+      "row_id": "r01",
+      "raw": "BALANCESHEETS"
+    }
+  ],
+  "truth_method": "Source heading, without inter-word whitespace. Unsupported alphabet test."
+}

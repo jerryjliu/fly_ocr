@@ -1,0 +1,36 @@
+{
+  "run_sha256": "af6cb952f7ee776b2a7844f6541c6bfbaaa2c17032faa535ad874cfacd3e8941",
+  "truth_sha256": "e3454f26be7a56cec99adbf555ab8440e18cbc006baf58ce18db818ed1a681bc",
+  "n_cells": 2,
+  "correct_cells": 0,
+  "cell_exact_match": 0.0,
+  "character_error_rate": 0.14893617021276595,
+  "edit_errors": 7,
+  "truth_characters": 47,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 2,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01",
+      "truth": "Cash and cash equivalents",
+      "prediction": "Carb and carb equiyalentr",
+      "exact": false,
+      "edit_distance": 6,
+      "expected_glyphs": 25,
+      "segmented_glyphs": 25
+    },
+    {
+      "row_id": "r02",
+      "truth": "Short-term investments",
+      "prediction": "Short-term invertments",
+      "exact": false,
+      "edit_distance": 1,
+      "expected_glyphs": 22,
+      "segmented_glyphs": 22
+    }
+  ],
+  "threshold_met": false,
+  "scope": "Selected upright printed text lines, with geometric spaces; no text correction",
+  "uncertainty": "PDF pixels informed segmentation development; not a general OCR benchmark."
+}

@@ -1,0 +1,520 @@
+{
+  "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+  "crop_sha256": "04bd5af86f623cb956107d9c8ba0ed15c703438d1475d83aa8e0294fd4d3a35c",
+  "layout": {
+    "n_rows": 19,
+    "n_columns": 3,
+    "column_bounds": [
+      [
+        0,
+        255
+      ],
+      [
+        255,
+        470
+      ],
+      [
+        470,
+        690
+      ]
+    ],
+    "method": "horizontal rule removal, whitespace columns constrained by cell rules, baseline alignment",
+    "scope": "manually selected numeric region; no semantic labels or merged-cell inference"
+  },
+  "cells": [
+    {
+      "row_id": "r01-c02",
+      "box": [
+        354,
+        30,
+        428,
+        57
+      ],
+      "raw": "2024",
+      "table_row": 0,
+      "table_column": 1
+    },
+    {
+      "row_id": "r01-c03",
+      "box": [
+        568,
+        19,
+        641,
+        46
+      ],
+      "raw": "2023",
+      "table_row": 0,
+      "table_column": 2
+    },
+    {
+      "row_id": "r02-c01",
+      "box": [
+        140,
+        41,
+        212,
+        69
+      ],
+      "raw": "2025",
+      "table_row": 1,
+      "table_column": 0
+    },
+    {
+      "row_id": "r03-c02",
+      "box": [
+        270,
+        91,
+        430,
+        133
+      ],
+      "raw": "$88,136",
+      "table_row": 2,
+      "table_column": 1
+    },
+    {
+      "row_id": "r03-c03",
+      "box": [
+        484,
+        80,
+        645,
+        121
+      ],
+      "raw": "$72,361",
+      "table_row": 2,
+      "table_column": 2
+    },
+    {
+      "row_id": "r04-c01",
+      "box": [
+        20,
+        102,
+        215,
+        146
+      ],
+      "raw": "$101,832",
+      "table_row": 3,
+      "table_column": 0
+    },
+    {
+      "row_id": "r05-c02",
+      "box": [
+        269,
+        147,
+        435,
+        158
+      ],
+      "raw": ")",
+      "table_row": 4,
+      "table_column": 1
+    },
+    {
+      "row_id": "r05-c03",
+      "box": [
+        484,
+        136,
+        649,
+        147
+      ],
+      "raw": ")",
+      "table_row": 4,
+      "table_column": 2
+    },
+    {
+      "row_id": "r06-c01",
+      "box": [
+        20,
+        158,
+        220,
+        171
+      ],
+      "raw": ")",
+      "table_row": 5,
+      "table_column": 0
+    },
+    {
+      "row_id": "r07-c02",
+      "box": [
+        397,
+        241,
+        438,
+        272
+      ],
+      "raw": "24",
+      "table_row": 6,
+      "table_column": 1
+    },
+    {
+      "row_id": "r07-c03",
+      "box": [
+        599,
+        229,
+        664,
+        268
+      ],
+      "raw": "(14)",
+      "table_row": 6,
+      "table_column": 2
+    },
+    {
+      "row_id": "r08-c01",
+      "box": [
+        189,
+        252,
+        238,
+        290
+      ],
+      "raw": "(5)",
+      "table_row": 7,
+      "table_column": 0
+    },
+    {
+      "row_id": "r09-c02",
+      "box": [
+        376,
+        291,
+        440,
+        324
+      ],
+      "raw": "957",
+      "table_row": 8,
+      "table_column": 1
+    },
+    {
+      "row_id": "r09-c03",
+      "box": [
+        548,
+        279,
+        667,
+        321
+      ],
+      "raw": "(1,444)",
+      "table_row": 8,
+      "table_column": 2
+    },
+    {
+      "row_id": "r10-c01",
+      "box": [
+        123,
+        302,
+        227,
+        341
+      ],
+      "raw": "1,574",
+      "table_row": 9,
+      "table_column": 0
+    },
+    {
+      "row_id": "r11-c01",
+      "box": [
+        161,
+        352,
+        230,
+        385
+      ],
+      "raw": "674",
+      "table_row": 10,
+      "table_column": 0
+    },
+    {
+      "row_id": "r11-c02",
+      "box": [
+        368,
+        340,
+        455,
+        380
+      ],
+      "raw": "(228)",
+      "table_row": 10,
+      "table_column": 1
+    },
+    {
+      "row_id": "r11-c03",
+      "box": [
+        582,
+        329,
+        669,
+        369
+      ],
+      "raw": "(207)",
+      "table_row": 10,
+      "table_column": 2
+    },
+    {
+      "row_id": "r12-c02",
+      "box": [
+        282,
+        397,
+        448,
+        408
+      ],
+      "raw": ")",
+      "table_row": 11,
+      "table_column": 1
+    },
+    {
+      "row_id": "r12-c03",
+      "box": [
+        497,
+        385,
+        662,
+        396
+      ],
+      "raw": ")",
+      "table_row": 11,
+      "table_column": 2
+    },
+    {
+      "row_id": "r13-c01",
+      "box": [
+        21,
+        408,
+        233,
+        421
+      ],
+      "raw": ")",
+      "table_row": 12,
+      "table_column": 0
+    },
+    {
+      "row_id": "r13-c02",
+      "box": [
+        382,
+        420,
+        446,
+        452
+      ],
+      "raw": "753",
+      "table_row": 12,
+      "table_column": 1
+    },
+    {
+      "row_id": "r13-c03",
+      "box": [
+        555,
+        408,
+        673,
+        450
+      ],
+      "raw": "(1,665)",
+      "table_row": 12,
+      "table_column": 2
+    },
+    {
+      "row_id": "r14-c01",
+      "box": [
+        130,
+        431,
+        232,
+        470
+      ],
+      "raw": "2,243",
+      "table_row": 13,
+      "table_column": 0
+    },
+    {
+      "row_id": "r15-c02",
+      "box": [
+        287,
+        476,
+        452,
+        487
+      ],
+      "raw": ")",
+      "table_row": 14,
+      "table_column": 1
+    },
+    {
+      "row_id": "r15-c03",
+      "box": [
+        501,
+        464,
+        667,
+        476
+      ],
+      "raw": ")",
+      "table_row": 14,
+      "table_column": 2
+    },
+    {
+      "row_id": "r16-c01",
+      "box": [
+        25,
+        487,
+        237,
+        501
+      ],
+      "raw": ")",
+      "table_row": 15,
+      "table_column": 0
+    },
+    {
+      "row_id": "r16-c03",
+      "box": [
+        506,
+        487,
+        666,
+        529
+      ],
+      "raw": "$70,696",
+      "table_row": 15,
+      "table_column": 2
+    },
+    {
+      "row_id": "r17-c01",
+      "box": [
+        41,
+        510,
+        237,
+        553
+      ],
+      "raw": "$104,075",
+      "table_row": 16,
+      "table_column": 0
+    },
+    {
+      "row_id": "r17-c02",
+      "box": [
+        291,
+        498,
+        451,
+        540
+      ],
+      "raw": "$88,889",
+      "table_row": 16,
+      "table_column": 1
+    },
+    {
+      "row_id": "r18-c02",
+      "box": [
+        291,
+        555,
+        456,
+        570
+      ],
+      "raw": ")",
+      "table_row": 17,
+      "table_column": 1
+    },
+    {
+      "row_id": "r18-c03",
+      "box": [
+        506,
+        544,
+        670,
+        559
+      ],
+      "raw": ")",
+      "table_row": 17,
+      "table_column": 2
+    },
+    {
+      "row_id": "r19-c01",
+      "box": [
+        41,
+        567,
+        241,
+        583
+      ],
+      "raw": "))",
+      "table_row": 18,
+      "table_column": 0
+    }
+  ],
+  "matrix": [
+    [
+      "",
+      "2024",
+      "2023"
+    ],
+    [
+      "2025",
+      "",
+      ""
+    ],
+    [
+      "",
+      "$88,136",
+      "$72,361"
+    ],
+    [
+      "$101,832",
+      "",
+      ""
+    ],
+    [
+      "",
+      ")",
+      ")"
+    ],
+    [
+      ")",
+      "",
+      ""
+    ],
+    [
+      "",
+      "24",
+      "(14)"
+    ],
+    [
+      "(5)",
+      "",
+      ""
+    ],
+    [
+      "",
+      "957",
+      "(1,444)"
+    ],
+    [
+      "1,574",
+      "",
+      ""
+    ],
+    [
+      "674",
+      "(228)",
+      "(207)"
+    ],
+    [
+      "",
+      ")",
+      ")"
+    ],
+    [
+      ")",
+      "753",
+      "(1,665)"
+    ],
+    [
+      "2,243",
+      "",
+      ""
+    ],
+    [
+      "",
+      ")",
+      ")"
+    ],
+    [
+      ")",
+      "",
+      "$70,696"
+    ],
+    [
+      "$104,075",
+      "$88,889",
+      ""
+    ],
+    [
+      "",
+      ")",
+      ")"
+    ],
+    [
+      "))",
+      "",
+      ""
+    ]
+  ],
+  "disclosure": "Raw strings, no numeric repair, semantic headers, or accounting interpretation."
+}

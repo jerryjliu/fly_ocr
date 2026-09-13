@@ -1,0 +1,19 @@
+{
+  "benchmarks": {
+    "train": {
+      "cache_id": "b402765c6e10a0a9a96dc7027378aad8d5572f1196492d3dbbbd1913d008b1b8",
+      "n": 6528,
+      "worker_seconds": 2051.6170184277,
+      "mean_worker_seconds": 0.3142795677738511
+    },
+    "validation": {
+      "cache_id": "142e5a0af1abdc3e87671c3ffecd70974a396cade5190e670465bbdf6adfc6e4",
+      "n": 1088,
+      "worker_seconds": 309.3767118565738,
+      "mean_worker_seconds": 0.28435359545640976
+    }
+  },
+  "wall_seconds": 1281.394595083315,
+  "model_id": "6a05564214a7bf206021bb0de83fe392e9984828c89402d8ec57b4ad66a28e4d",
+  "internal_weight_hash_unchanged": true
+}

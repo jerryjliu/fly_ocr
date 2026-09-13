@@ -1,0 +1,12 @@
+{
+  "original": {
+    "seconds_per_glyph": 0.29527729938854463,
+    "mean_spikes": 82226.9375,
+    "model_id": "e5a1d1563401d68d151fb227b89a66b837b9ae44c1c5dff1336723392c57b97e"
+  },
+  "balanced": {
+    "seconds_per_glyph": 0.28903756773797795,
+    "mean_spikes": 81942.375,
+    "model_id": "6a05564214a7bf206021bb0de83fe392e9984828c89402d8ec57b4ad66a28e4d"
+  }
+}

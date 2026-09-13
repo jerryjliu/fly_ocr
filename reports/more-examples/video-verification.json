@@ -1,0 +1,68 @@
+{
+  "videos": [
+    {
+      "id": "income-table",
+      "video_sha256": "624d4152a5462f6fce50e987c8227d3045fb7ada24a2dd652f4ead9f81819468",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "886d1f028dcbeb97ad6236096bdb05a99c180d077367bbea1edf1fab746d8e9e",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    },
+    {
+      "id": "cash-flow",
+      "video_sha256": "b9026efb9e7a818b3d905acc3b68cfc6518e0ae7b41865069a2229a120b9f7f9",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "3a4610ea97e07ab1f63751c1e3a420abbf718ea2eec9bd24c85f26a564b451af",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    },
+    {
+      "id": "tilted-table",
+      "video_sha256": "8705b220b77ad861d3d0a58db0979295707348bb0e60da8c17986b3269e07bfa",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "1014704762019141457c95a3ff8f46e08f86771c88d85206c0218b0dea5a1737",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    },
+    {
+      "id": "letters",
+      "video_sha256": "21c09143c94a2df174283f123f47dc8082b040c60ac19bafbdbd63a912148bef",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "4ecf82c8fce6a6becbbef730d9dd07ba589da69e764a604ec14e1984f32f9034",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    }
+  ]
+}

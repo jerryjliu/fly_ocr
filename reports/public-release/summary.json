@@ -1,0 +1,16 @@
+{
+  "python_tests_passed": 25,
+  "recordings_verified": 11,
+  "recorded_events_verified": 983,
+  "videos_fully_decoded": 12,
+  "video_frames_decoded": 14784,
+  "compilation_seconds": 176,
+  "report_pages": 13,
+  "report_pages_visually_checked": true,
+  "browser_interactions_verified": true,
+  "static_build_passed": true,
+  "fresh_installed_inference_matched": true,
+  "atlas_inference_change": false,
+  "large_graph_distributed": false,
+  "cloud_execution_claimed": false
+}

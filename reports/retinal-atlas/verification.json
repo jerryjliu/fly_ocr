@@ -1,0 +1,66 @@
+{
+  "atlas_id": "9a571356a509592a3884a7ef61584a08de75a88656a2425c748c88bbe34e8656",
+  "runs": [
+    {
+      "run": "demo/run/run.json",
+      "events": 120,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/calibrated-heading/run.json",
+      "events": 13,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/calibrated-labels/run.json",
+      "events": 43,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/calibrated-labels-more/run.json",
+      "events": 105,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/cash-flow/run.json",
+      "events": 299,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/income-table/run.json",
+      "events": 108,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/letters/run.json",
+      "events": 13,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/tilted-table/run.json",
+      "events": 121,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/trained-heading/run.json",
+      "events": 13,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/trained-labels/run.json",
+      "events": 43,
+      "inference_unchanged": true
+    },
+    {
+      "run": "demo/examples/trained-labels-more/run.json",
+      "events": 105,
+      "inference_unchanged": true
+    }
+  ],
+  "retained_receptors_by_eye": {
+    "L": 1107,
+    "R": 2228
+  },
+  "display_only": true,
+  "accuracy_change": 0
+}

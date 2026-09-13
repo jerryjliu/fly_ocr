@@ -1,0 +1,79 @@
+{
+  "examples": [
+    {
+      "id": "income-table",
+      "verified_events": 108,
+      "verified_rows": 21,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false,
+      "glyphs": 108,
+      "measured_seconds": 35.3836969663389,
+      "correct_cells": 21,
+      "n_cells": 21,
+      "character_error_rate": 0.0,
+      "predicted_shape": [
+        7,
+        3
+      ],
+      "shape_match": true
+    },
+    {
+      "id": "cash-flow",
+      "verified_events": 299,
+      "verified_rows": 45,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false,
+      "glyphs": 299,
+      "measured_seconds": 99.26430695364252,
+      "correct_cells": 44,
+      "n_cells": 45,
+      "character_error_rate": 0.0033444816053511705,
+      "predicted_shape": [
+        15,
+        3
+      ],
+      "shape_match": true
+    },
+    {
+      "id": "tilted-table",
+      "verified_events": 121,
+      "verified_rows": 33,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false,
+      "glyphs": 121,
+      "measured_seconds": 38.92835054919124,
+      "correct_cells": 2,
+      "n_cells": 21,
+      "character_error_rate": 1.7037037037037037,
+      "predicted_shape": [
+        19,
+        3
+      ],
+      "shape_match": false
+    },
+    {
+      "id": "letters",
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false,
+      "glyphs": 13,
+      "measured_seconds": 4.366150749381632,
+      "correct_cells": 0,
+      "n_cells": 1,
+      "character_error_rate": 1.0,
+      "predicted_shape": null,
+      "shape_match": null
+    }
+  ],
+  "same_frozen_checkpoint": true,
+  "python_tests": 15,
+  "frontend_build": true,
+  "typescript": true,
+  "timeline_checks": true,
+  "browser_interaction": "Not verified: in-app browser returned ERR_BLOCKED_BY_CLIENT for localhost. Canvas frames, timeline behavior, and production build verified separately."
+}

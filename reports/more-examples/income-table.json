@@ -1,0 +1,217 @@
+{
+  "run_sha256": "886d1f028dcbeb97ad6236096bdb05a99c180d077367bbea1edf1fab746d8e9e",
+  "truth_sha256": "e9b595895d82466655e1fce4ff0ddd170fbac15d6cbadc750912f00b44c43647",
+  "n_cells": 21,
+  "correct_cells": 21,
+  "cell_exact_match": 1.0,
+  "character_error_rate": 0.0,
+  "edit_errors": 0,
+  "truth_characters": 108,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 21,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01-c01",
+      "truth": "2025",
+      "prediction": "2025",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 4,
+      "segmented_glyphs": 4
+    },
+    {
+      "row_id": "r01-c02",
+      "truth": "2024",
+      "prediction": "2024",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 4,
+      "segmented_glyphs": 4
+    },
+    {
+      "row_id": "r01-c03",
+      "truth": "2023",
+      "prediction": "2023",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 4,
+      "segmented_glyphs": 4
+    },
+    {
+      "row_id": "r02-c01",
+      "truth": "$101,832",
+      "prediction": "$101,832",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r02-c02",
+      "truth": "$88,136",
+      "prediction": "$88,136",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r02-c03",
+      "truth": "$72,361",
+      "prediction": "$72,361",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r03-c01",
+      "truth": "(5)",
+      "prediction": "(5)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 3,
+      "segmented_glyphs": 3
+    },
+    {
+      "row_id": "r03-c02",
+      "truth": "24",
+      "prediction": "24",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 2,
+      "segmented_glyphs": 2
+    },
+    {
+      "row_id": "r03-c03",
+      "truth": "(14)",
+      "prediction": "(14)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 4,
+      "segmented_glyphs": 4
+    },
+    {
+      "row_id": "r04-c01",
+      "truth": "1,574",
+      "prediction": "1,574",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r04-c02",
+      "truth": "957",
+      "prediction": "957",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 3,
+      "segmented_glyphs": 3
+    },
+    {
+      "row_id": "r04-c03",
+      "truth": "(1,444)",
+      "prediction": "(1,444)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r05-c01",
+      "truth": "674",
+      "prediction": "674",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 3,
+      "segmented_glyphs": 3
+    },
+    {
+      "row_id": "r05-c02",
+      "truth": "(228)",
+      "prediction": "(228)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r05-c03",
+      "truth": "(207)",
+      "prediction": "(207)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r06-c01",
+      "truth": "2,243",
+      "prediction": "2,243",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r06-c02",
+      "truth": "753",
+      "prediction": "753",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 3,
+      "segmented_glyphs": 3
+    },
+    {
+      "row_id": "r06-c03",
+      "truth": "(1,665)",
+      "prediction": "(1,665)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r07-c01",
+      "truth": "$104,075",
+      "prediction": "$104,075",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r07-c02",
+      "truth": "$88,889",
+      "prediction": "$88,889",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r07-c03",
+      "truth": "$70,696",
+      "prediction": "$70,696",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    }
+  ],
+  "threshold_met": true,
+  "scope": "manually selected numeric table region; pixel column and row inference; no correction",
+  "uncertainty": "Selected examples, not a representative general table benchmark.",
+  "expected_shape": [
+    7,
+    3
+  ],
+  "predicted_shape": [
+    7,
+    3
+  ],
+  "shape_match": true,
+  "table_exact_match": true
+}

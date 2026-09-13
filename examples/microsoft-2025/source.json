@@ -1,0 +1,18 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "bytes": 586537,
+  "printed_page": 38,
+  "pdf_page": 40,
+  "page_index": 39,
+  "dpi": 300,
+  "region_normalized": [
+    0.685,
+    0.207,
+    0.78,
+    0.642
+  ],
+  "selection": "Complete 2025 numeric column, 19 numeric cells, selected before model predictions",
+  "attribution": "Microsoft 2025 Annual Report, income statements",
+  "geometry_note": "Right boundary widened before predictions to include the complete closing parenthesis; all 19 original rows retained."
+}

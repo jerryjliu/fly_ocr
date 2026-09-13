@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.dylib
+*.so
+.DS_Store
+.cache/
+/data/
+output/
+node_modules/
+dist/
+*.egg-info/
+.env
+.env.*
+
+# Local authoring, hosting state, and credentials
+/tmp/
+.openai/
+.wrangler/
+*.pem
+*.key
+*.log
+reports/video-frames/
+reports/video-decoded/

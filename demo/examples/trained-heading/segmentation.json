@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "normalization": "line-box-v1",
+  "crop_sha256": "5c50e3bef65d8ce85e834aaee2663116e01c44528cb8c827d51d83733ab06a87",
+  "method": "pixel projections, cautious narrow bridge splitting, estimated baseline, geometric word gaps",
+  "scope": "upright printed text region; no OCR, dictionary, or embedded PDF text",
+  "rows": [
+    {
+      "row_id": "r01",
+      "box": [
+        102,
+        14,
+        444,
+        45
+      ],
+      "glyph_boxes": [
+        [
+          102,
+          15,
+          125,
+          44
+        ],
+        [
+          126,
+          15,
+          155,
+          44
+        ],
+        [
+          158,
+          15,
+          176,
+          44
+        ],
+        [
+          177,
+          15,
+          205,
+          44
+        ],
+        [
+          209,
+          15,
+          235,
+          44
+        ],
+        [
+          240,
+          14,
+          263,
+          45
+        ],
+        [
+          268,
+          15,
+          286,
+          44
+        ],
+        [
+          300,
+          14,
+          320,
+          45
+        ],
+        [
+          325,
+          15,
+          350,
+          44
+        ],
+        [
+          357,
+          15,
+          375,
+          44
+        ],
+        [
+          379,
+          15,
+          397,
+          44
+        ],
+        [
+          399,
+          15,
+          422,
+          44
+        ],
+        [
+          424,
+          14,
+          444,
+          45
+        ]
+      ],
+      "baseline": 44.0,
+      "cap_height": 30.0,
+      "glyphs": [
+        {
+          "id": "r01-g01",
+          "box": [
+            102,
+            15,
+            125,
+            44
+          ],
+          "image": "glyphs/r01-g01.png",
+          "sha256": "394ac6e15b472899351d2546bbc0d8d085e4d2b45593e9d3fd8e2a26a80ffdbe",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g02",
+          "box": [
+            126,
+            15,
+            155,
+            44
+          ],
+          "image": "glyphs/r01-g02.png",
+          "sha256": "c8e42168018ba810c2b2e00e5a68d677a393c9d36fc3eb834840898a73de6480",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g03",
+          "box": [
+            158,
+            15,
+            176,
+            44
+          ],
+          "image": "glyphs/r01-g03.png",
+          "sha256": "d14c6f210dfcaa21be092888343f2fee4c7eb20da9dd7344c8ee5d9bec5721f4",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g04",
+          "box": [
+            177,
+            15,
+            205,
+            44
+          ],
+          "image": "glyphs/r01-g04.png",
+          "sha256": "889e920a939267d02517833b539b08f1b668e3b5bcb6adb05ed51ea9c829984e",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g05",
+          "box": [
+            209,
+            15,
+            235,
+            44
+          ],
+          "image": "glyphs/r01-g05.png",
+          "sha256": "158f9b8b38cf35ad040d9d252bd93ae72d52b42c299d1b0f2f4c66563af01674",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g06",
+          "box": [
+            240,
+            14,
+            263,
+            45
+          ],
+          "image": "glyphs/r01-g06.png",
+          "sha256": "401aa706432f7d0e80a69e4fbdf8b1b30fe40715a51cc450077e742b5d4d162a",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g07",
+          "box": [
+            268,
+            15,
+            286,
+            44
+          ],
+          "image": "glyphs/r01-g07.png",
+          "sha256": "6165ffb4e80919738fba458ccba248445166d1e18ca22b74db4fa910ac90afaa",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g08",
+          "box": [
+            300,
+            14,
+            320,
+            45
+          ],
+          "image": "glyphs/r01-g08.png",
+          "sha256": "408d34b9caa2ec5dc701dddaf9ecfc3ecc1d11f93e57ad4723482a3f3a4ecf50",
+          "prefix": " "
+        },
+        {
+          "id": "r01-g09",
+          "box": [
+            325,
+            15,
+            350,
+            44
+          ],
+          "image": "glyphs/r01-g09.png",
+          "sha256": "439c686106b073f5b166091239944bcfd0ba4afe061ac69933454a625ffaf683",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g10",
+          "box": [
+            357,
+            15,
+            375,
+            44
+          ],
+          "image": "glyphs/r01-g10.png",
+          "sha256": "6165ffb4e80919738fba458ccba248445166d1e18ca22b74db4fa910ac90afaa",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g11",
+          "box": [
+            379,
+            15,
+            397,
+            44
+          ],
+          "image": "glyphs/r01-g11.png",
+          "sha256": "6165ffb4e80919738fba458ccba248445166d1e18ca22b74db4fa910ac90afaa",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g12",
+          "box": [
+            399,
+            15,
+            422,
+            44
+          ],
+          "image": "glyphs/r01-g12.png",
+          "sha256": "c5155f8fa6eade886e4751b628804273a83738b6a5a55447a21ce9278b015a30",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g13",
+          "box": [
+            424,
+            14,
+            444,
+            45
+          ],
+          "image": "glyphs/r01-g13.png",
+          "sha256": "408d34b9caa2ec5dc701dddaf9ecfc3ecc1d11f93e57ad4723482a3f3a4ecf50",
+          "prefix": ""
+        }
+      ]
+    }
+  ]
+}

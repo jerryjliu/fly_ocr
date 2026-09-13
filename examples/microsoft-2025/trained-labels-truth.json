@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "row_id": "r01",
+      "raw": "Cash and cash equivalents"
+    },
+    {
+      "row_id": "r02",
+      "raw": "Short-term investments"
+    }
+  ],
+  "method": "Manual transcription from source pixels while letter training was in progress; includes spaces."
+}

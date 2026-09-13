@@ -1,0 +1,21 @@
+{
+  "id": "tilted-table",
+  "title": "What happens when the scan is tilted?",
+  "caption": "Same table \u00b7 3\u00b0 rotation",
+  "source": "Microsoft 2025 Annual Report \u00b7 PDF page 41 \u00b7 controlled rotation",
+  "page": 41,
+  "region": [
+    0.675,
+    0.146,
+    0.942,
+    0.319
+  ],
+  "table": true,
+  "rotation": 3,
+  "note": "A declared 3\u00b0 counterclockwise rotation of the income crop. No deskew or retraining.",
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "prepared_crop_sha256": "04bd5af86f623cb956107d9c8ba0ed15c703438d1475d83aa8e0294fd4d3a35c",
+  "selection": "Regions and expected transcriptions declared from source pixels before new predictions. Same frozen numeric decoder for every example. No cell-level cherry-picking or postprocessing repair.",
+  "crop_operation": "Poppler 300 dpi, normalized region, optional declared rotation"
+}

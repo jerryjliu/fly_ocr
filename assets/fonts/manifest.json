@@ -1,0 +1,96 @@
+{
+  "repository": "google/fonts",
+  "commit": "809e4d8b8d7e9364a914909bb777679606c178b8",
+  "fonts": [
+    {
+      "family": "roboto",
+      "split": "train",
+      "file": "assets/fonts/roboto/Roboto[wdth,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/roboto/OFL.txt"
+    },
+    {
+      "family": "opensans",
+      "split": "train",
+      "file": "assets/fonts/opensans/OpenSans[wdth,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/opensans/OpenSans%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/opensans/OFL.txt"
+    },
+    {
+      "family": "lato",
+      "split": "train",
+      "file": "assets/fonts/lato/Lato-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/lato/Lato-Regular.ttf",
+      "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/lato/OFL.txt"
+    },
+    {
+      "family": "notosans",
+      "split": "train",
+      "file": "assets/fonts/notosans/NotoSans[wdth,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/notosans/OFL.txt"
+    },
+    {
+      "family": "sourcesans3",
+      "split": "train",
+      "file": "assets/fonts/sourcesans3/SourceSans3[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+      "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/sourcesans3/OFL.txt"
+    },
+    {
+      "family": "montserrat",
+      "split": "train",
+      "file": "assets/fonts/montserrat/Montserrat[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/montserrat/OFL.txt"
+    },
+    {
+      "family": "ptsans",
+      "split": "validation",
+      "file": "assets/fonts/ptsans/PT_Sans-Web-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/ptsans/PT_Sans-Web-Regular.ttf",
+      "sha256": "9cc831490532009bae2b3ce0d39c62adfc889060beb421593bfd9d2396d0f10a",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/ptsans/OFL.txt"
+    },
+    {
+      "family": "lora",
+      "split": "validation",
+      "file": "assets/fonts/lora/Lora[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/lora/Lora%5Bwght%5D.ttf",
+      "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/lora/OFL.txt"
+    },
+    {
+      "family": "firasans",
+      "split": "test",
+      "file": "assets/fonts/firasans/FiraSans-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/firasans/FiraSans-Regular.ttf",
+      "sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/firasans/OFL.txt"
+    },
+    {
+      "family": "notoserif",
+      "split": "test",
+      "file": "assets/fonts/notoserif/NotoSerif[wdth,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/809e4d8b8d7e9364a914909bb777679606c178b8/ofl/notoserif/NotoSerif%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+      "license": "SIL OFL 1.1",
+      "license_file": "assets/fonts/notoserif/OFL.txt"
+    }
+  ]
+}

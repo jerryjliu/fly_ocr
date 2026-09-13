@@ -1,0 +1,24 @@
+{
+  "config": {
+    "sensory_gain": 20.0,
+    "lamina_drive": 20.0,
+    "warmup_ms": 50.0,
+    "duration_ms": 100.0,
+    "bins": 4,
+    "half_saturation": 0.2,
+    "invert": true
+  },
+  "pilot_key": "77dfcbea40f8875b",
+  "validation_accuracy": 0.7875,
+  "graph_id": "8b28f61727e73f35411fe7b85000e2aa4a5ab168a95ab56ab8ea20d09f3b5148",
+  "all_results": [
+    "9718e3885f89e8ab",
+    "3d7e92e48a92b1e1",
+    "eb69125f6504ff46",
+    "df966e1ee186d6d4",
+    "c67cd798a62854a5",
+    "bc48046f59b8f7c1",
+    "039f9d75b33d15f2",
+    "77dfcbea40f8875b"
+  ]
+}

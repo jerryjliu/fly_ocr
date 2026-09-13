@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "id": "calibrated-heading",
+      "video_sha256": "e75b8312e50703afeceb28d6dce031164c67ea293f183e64f4a7d16e9f0de293",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "5b18b059757b0e7a751a52da8653fb6cda3e51460a9c53f2e564ce6e7a06e1c3",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    },
+    {
+      "id": "calibrated-labels",
+      "video_sha256": "e50d03eea187892ef3e3800b73d932ff922de503d572c16b9e0e23b1b132cc69",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "5066f8f66290702570e70572da156049a7144572c83f2419f30f6232a5426d87",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    },
+    {
+      "id": "calibrated-labels-more",
+      "video_sha256": "2ba4d09fe9a8075a661d62b9003cadd6efff30947b7cd2d6c08fe394a471c6f4",
+      "frames_decoded": 960,
+      "seconds": 40.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "run_sha256": "8797c272dc21b5b974e22fdb09fe1a719fa570cb732abf3466801b08586c502c",
+      "decoded_frames": [
+        0,
+        360,
+        959
+      ],
+      "decode_errors": ""
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "artifact_id": "5d7dff46c5eed87e42e4fcc919dbbf74e7a638c560d2a960f043b500b772a903",
+  "seed": 43,
+  "neural": {
+    "n": 200,
+    "correct": 109,
+    "accuracy": 0.545,
+    "macro_f1": 0.5480581805773621,
+    "wilson_95": [
+      0.4757848503696115,
+      0.6125190090977398
+    ],
+    "interval_caveat": "Image-level binomial interval; shared fonts introduce dependence.",
+    "confusion_matrix": [
+      [
+        4,
+        2,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        5
+      ],
+      [
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        3,
+        2,
+        5,
+        9,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        9,
+        0,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        13,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        3,
+        10,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        12,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        11
+      ]
+    ]
+  },
+  "fit": {
+    "C": 0.01,
+    "trials": [
+      {
+        "C": 0.001,
+        "validation_accuracy": 0.59,
+        "converged": true
+      },
+      {
+        "C": 0.01,
+        "validation_accuracy": 0.62,
+        "converged": true
+      },
+      {
+        "C": 0.1,
+        "validation_accuracy": 0.61,
+        "converged": true
+      },
+      {
+        "C": 1.0,
+        "validation_accuracy": 0.6,
+        "converged": true
+      },
+      {
+        "C": 10.0,
+        "validation_accuracy": 0.6,
+        "converged": true
+      }
+    ],
+    "validation_accuracy": 0.62
+  },
+  "feature_cells": 512,
+  "mean_feature_count": 1.589326171875,
+  "construction": "Uniform permutation of edge target vector; exact in/out edge degrees and source weight/sign lists preserved. Spatial structure and individual contacts per target are not preserved; multiedges may occur.",
+  "verified_exact_in_degree": true,
+  "verified_exact_out_degree": true,
+  "verified_source_weight_sign_unchanged": true,
+  "config": {
+    "sensory_gain": 20.0,
+    "lamina_drive": 20.0,
+    "warmup_ms": 50.0,
+    "duration_ms": 100.0,
+    "bins": 4,
+    "half_saturation": 0.2,
+    "invert": true
+  },
+  "wall_seconds": 642.69694591593
+}

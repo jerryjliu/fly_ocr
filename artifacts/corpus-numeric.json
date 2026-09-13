@@ -1,0 +1,12 @@
+{
+  "characters": "0123456789,.-()$",
+  "per_class": {
+    "train": 150,
+    "validation": 30,
+    "test": 50
+  },
+  "seed": 20260912,
+  "font_manifest_sha256": "5f41c188927f7ff390072d0433f62680b4d82d93f85a88aafe3deb205b1a55ca",
+  "normalization": "ink-box-v1",
+  "corpus_id": "c6f4bf8e3fb386122beab3b496405d3571085a240d3c8cbf4e92e484c1f01096"
+}

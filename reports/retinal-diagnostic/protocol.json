@@ -1,0 +1,19 @@
+{
+  "purpose": "Exploratory diagnosis after observing PDF errors; no deployed model changes",
+  "splits": "Existing training and validation only; no new held-out or PDF baseline scoring",
+  "classifier": "StandardScaler fitted on training, then RidgeClassifier(solver='cholesky')",
+  "alphas": [
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selection": "Best validation accuracy per input representation; results are validation-selected",
+  "conditions": [
+    "full_pixels",
+    "current_retinal_samples",
+    "uniform_retinal_control"
+  ],
+  "uniform_control": "3335 fixed nearly uniform locations from a 58x58 grid; not an anatomical mapping",
+  "caveat": "Direct input classifiers bypass the circuit; no expected gain for a remapped circuit is established"
+}

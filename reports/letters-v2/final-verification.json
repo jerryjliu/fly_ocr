@@ -1,0 +1,33 @@
+{
+  "python_tests": 24,
+  "frontend_build": true,
+  "typescript_check": true,
+  "timeline_check": true,
+  "video_frames_decoded": 2880,
+  "representative_encoded_frames_visually_checked": [
+    "calibrated-heading/02.png",
+    "calibrated-labels/02.png",
+    "calibrated-labels-more/03.png"
+  ],
+  "installed_inference": {
+    "verified": {
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+      "network_required": false,
+      "graph_required": false
+    },
+    "installed_package_used": true,
+    "counts_samples_scores_identical": true,
+    "torch_imported": false
+  },
+  "cli": {
+    "verified_events": 13,
+    "verified_rows": 1,
+    "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+    "network_required": false,
+    "graph_required": false,
+    "cli_flag": "--letters",
+    "predictions_and_counts_identical": true
+  }
+}

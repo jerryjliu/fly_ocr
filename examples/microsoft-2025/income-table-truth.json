@@ -1,0 +1,93 @@
+{
+  "shape": [
+    7,
+    3
+  ],
+  "rows": [
+    {
+      "row_id": "r01-c01",
+      "raw": "2025"
+    },
+    {
+      "row_id": "r01-c02",
+      "raw": "2024"
+    },
+    {
+      "row_id": "r01-c03",
+      "raw": "2023"
+    },
+    {
+      "row_id": "r02-c01",
+      "raw": "$101,832"
+    },
+    {
+      "row_id": "r02-c02",
+      "raw": "$88,136"
+    },
+    {
+      "row_id": "r02-c03",
+      "raw": "$72,361"
+    },
+    {
+      "row_id": "r03-c01",
+      "raw": "(5)"
+    },
+    {
+      "row_id": "r03-c02",
+      "raw": "24"
+    },
+    {
+      "row_id": "r03-c03",
+      "raw": "(14)"
+    },
+    {
+      "row_id": "r04-c01",
+      "raw": "1,574"
+    },
+    {
+      "row_id": "r04-c02",
+      "raw": "957"
+    },
+    {
+      "row_id": "r04-c03",
+      "raw": "(1,444)"
+    },
+    {
+      "row_id": "r05-c01",
+      "raw": "674"
+    },
+    {
+      "row_id": "r05-c02",
+      "raw": "(228)"
+    },
+    {
+      "row_id": "r05-c03",
+      "raw": "(207)"
+    },
+    {
+      "row_id": "r06-c01",
+      "raw": "2,243"
+    },
+    {
+      "row_id": "r06-c02",
+      "raw": "753"
+    },
+    {
+      "row_id": "r06-c03",
+      "raw": "(1,665)"
+    },
+    {
+      "row_id": "r07-c01",
+      "raw": "$104,075"
+    },
+    {
+      "row_id": "r07-c02",
+      "raw": "$88,889"
+    },
+    {
+      "row_id": "r07-c03",
+      "raw": "$70,696"
+    }
+  ],
+  "truth_method": "Manual source-pixel transcription before inference; spaces within accounting cells excluded."
+}

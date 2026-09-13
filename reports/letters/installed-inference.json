@@ -1,0 +1,12 @@
+{
+  "verified": {
+    "verified_events": 13,
+    "verified_rows": 1,
+    "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+    "network_required": false,
+    "graph_required": false
+  },
+  "counts_and_scores_identical": true,
+  "original_internal_weights_unchanged": true,
+  "cli_flag": "--letters"
+}

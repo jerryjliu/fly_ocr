@@ -1,0 +1,149 @@
+{
+  "videos": [
+    {
+      "video": "demo/flyocr-demo.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "a24935b3e571083cfc1c73892c143e11d2754a3712b7a7fbb56e653900245bb9",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/calibrated-heading/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "e0f6227c266699a48e27dfb6fba87a982465c54f7914a3d9302f2ed1be0c2878",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/calibrated-labels/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "df2ae138dd5135ce308a98e80d4aeb1fbd3c6ce73961fbe9ba5751c9da563b1f",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/calibrated-labels-more/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "c6ef2b0aff9855f2a88018a96cb3d102d7eeababb70d4ecb662a28b208d4cb1a",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/cash-flow/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "38a677f18a2b8aac742ef894251e7d48fae6c6d5e6dd4265e5f30ffad07959a9",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/income-table/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "2b040d54d5b70f3130a0f783740c3281bdd08fe52e6bf11c9aa91d2f3015b5e0",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/letters/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "252befa2b4dc30eb5275c2252647ffb00cab953b8d70a762ca0bb4ab54fef6ff",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/tilted-table/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "6ce036f93277d4ee43c84b36d518b7ce357cc13cb320b956dc1a4fd5abe1e701",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/trained-heading/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "2e3710dc8ed915dc9e96b8f8811c061c47bbfbdc40f817089af444e6252aa1bf",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/trained-labels/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "0c2a5909bfa585b65b6f8ad0504234219e1611c5d99aa4ad4afd396885b9df2f",
+      "full_decode": true
+    },
+    {
+      "video": "demo/examples/trained-labels-more/video.mp4",
+      "frames": 960,
+      "seconds": 40.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "f39d7a19a51cd0939ae67527442cc28f8a36a77ba6ac322b9ba9c41ff2eaabc7",
+      "full_decode": true
+    },
+    {
+      "video": "demo/compilation/fly-ocr.mp4",
+      "frames": 4224,
+      "seconds": 176.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "sha256": "aeb4ccd9544199178f794366a9127a786ec753347eb174dc600d01fb215edcf1",
+      "full_decode": true
+    }
+  ],
+  "total_decoded_frames": 14784
+}

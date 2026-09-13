@@ -1,0 +1,11 @@
+{
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "selection": "Regions and expected transcriptions declared from source pixels before new predictions. Same frozen numeric decoder for every example. No cell-level cherry-picking or postprocessing repair.",
+  "examples": [
+    {"id":"income-table", "title":"Can it return a table of values?", "caption":"Comprehensive income", "source":"Microsoft 2025 Annual Report · PDF page 41", "page":41, "region":[0.675,0.146,0.942,0.319], "table":true, "note":"Three year columns. Row and column positions come from pixel geometry; labels are outside the crop."},
+    {"id":"cash-flow", "title":"Parentheses, zeros, rules, and gaps", "caption":"Financing + investing", "source":"Microsoft 2025 Annual Report · PDF page 43", "page":43, "region":[0.630,0.494,0.945,0.794], "table":true, "note":"The complete numeric financing and investing blocks: bold and regular type, irregular row spacing."},
+    {"id":"tilted-table", "title":"What happens when the scan is tilted?", "caption":"Same table · 3° rotation", "source":"Microsoft 2025 Annual Report · PDF page 41 · controlled rotation", "page":41, "region":[0.675,0.146,0.942,0.319], "table":true, "rotation":3, "note":"A declared 3° counterclockwise rotation of the income crop. No deskew or retraining."},
+    {"id":"letters", "title":"Can this checkpoint read letters?", "caption":"The balance sheet heading", "source":"Microsoft 2025 Annual Report · PDF page 42", "page":42, "region":[0.390,0.095,0.610,0.114], "table":false, "note":"Unsupported input: the decoder can emit only 0123456789,.-()$. Letter training has not been done."}
+  ]
+}

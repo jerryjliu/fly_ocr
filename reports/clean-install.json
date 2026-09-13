@@ -1,0 +1,9 @@
+{
+  "installed_wheel": "dist/flyocr-0.1.0-py3-none-any.whl",
+  "imported_installed_package": true,
+  "native_kernel_available": true,
+  "tiny_network_passed": true,
+  "replay_verified_events": 120,
+  "initial_dependency_install": "locked requirements; packages available during installation",
+  "runtime_network_required": false
+}

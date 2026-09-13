@@ -1,0 +1,27 @@
+{
+  "run_sha256": "5b18b059757b0e7a751a52da8653fb6cda3e51460a9c53f2e564ce6e7a06e1c3",
+  "truth_sha256": "33c6760d1e5f57774ee6f872c9cb13ca0c0d1dbf9df2f3e82f0e60cba42898e7",
+  "n_cells": 1,
+  "correct_cells": 0,
+  "cell_exact_match": 0.0,
+  "character_error_rate": 0.14285714285714285,
+  "edit_errors": 2,
+  "truth_characters": 14,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 1,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01",
+      "truth": "BALANCE SHEETS",
+      "prediction": "BALANCE 5HEET5",
+      "exact": false,
+      "edit_distance": 2,
+      "expected_glyphs": 14,
+      "segmented_glyphs": 14
+    }
+  ],
+  "threshold_met": false,
+  "scope": "Same selected upright text lines; raw predictions and geometric spaces",
+  "uncertainty": "These PDF pixels informed segmentation development; not a new independent OCR benchmark."
+}

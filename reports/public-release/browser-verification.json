@@ -1,0 +1,8 @@
+{
+  "headless": true,
+  "default_and_deep_link": true,
+  "play_pause_reset": true,
+  "raw_text_verified": true,
+  "tilted_table_rows": 19,
+  "page_errors": []
+}

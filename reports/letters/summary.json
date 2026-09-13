@@ -1,0 +1,77 @@
+{
+  "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+  "heldout": {
+    "n": 1632,
+    "correct": 1222,
+    "accuracy": 0.7487745098039216,
+    "macro_f1": 0.7384209214039588,
+    "wilson_95": [
+      0.7271641018525387,
+      0.7692164768049549
+    ],
+    "interval_caveat": "Image-level binomial interval; shared fonts introduce dependence."
+  },
+  "groups": {
+    "uppercase": {
+      "n": 624,
+      "correct": 447,
+      "accuracy": 0.7163461538461539
+    },
+    "lowercase": {
+      "n": 624,
+      "correct": 450,
+      "accuracy": 0.7211538461538461
+    },
+    "digits": {
+      "n": 240,
+      "correct": 190,
+      "accuracy": 0.7916666666666666
+    },
+    "punctuation": {
+      "n": 144,
+      "correct": 135,
+      "accuracy": 0.9375
+    }
+  },
+  "examples": [
+    {
+      "id": "trained-heading",
+      "correct_lines": 0,
+      "lines": 1,
+      "edit_errors": 4,
+      "truth_characters": 14,
+      "measured_seconds": 4.991467832587659,
+      "raw": [
+        "EALANC5 SH55TS"
+      ]
+    },
+    {
+      "id": "trained-labels",
+      "correct_lines": 0,
+      "lines": 2,
+      "edit_errors": 7,
+      "truth_characters": 47,
+      "measured_seconds": 14.976062000263482,
+      "raw": [
+        "Carb and carb equiyalentr",
+        "Short-term invertments"
+      ]
+    },
+    {
+      "id": "trained-labels-more",
+      "correct_lines": 0,
+      "lines": 5,
+      "edit_errors": 23,
+      "truth_characters": 115,
+      "measured_seconds": 38.88280878541991,
+      "raw": [
+        "Ooerating leare right-pf-ure arsetr",
+        "Fquitv and other invertments",
+        "GpodwiII",
+        "IntanqihIe arrets. net",
+        "Otber Iong-term arretr"
+      ]
+    }
+  ],
+  "internal_weights_unchanged": true
+}

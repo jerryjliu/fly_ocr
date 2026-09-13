@@ -1,0 +1,27 @@
+{
+  "run_sha256": "4ecf82c8fce6a6becbbef730d9dd07ba589da69e764a604ec14e1984f32f9034",
+  "truth_sha256": "8554a8e7f321ec1d7d7827915fc3f749577ffc0f74582645064c71236ed232a0",
+  "n_cells": 1,
+  "correct_cells": 0,
+  "cell_exact_match": 0.0,
+  "character_error_rate": 1.0,
+  "edit_errors": 13,
+  "truth_characters": 13,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 1,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01",
+      "truth": "BALANCESHEETS",
+      "prediction": "848.568588875",
+      "exact": false,
+      "edit_distance": 13,
+      "expected_glyphs": 13,
+      "segmented_glyphs": 13
+    }
+  ],
+  "threshold_met": false,
+  "scope": "one manually selected column; automatic pixel glyph segmentation; no text correction",
+  "uncertainty": "One document column; not evidence of general PDF OCR performance."
+}

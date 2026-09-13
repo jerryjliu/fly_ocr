@@ -1,0 +1,86 @@
+{
+  "key": "aec80ffd71fd0c3e",
+  "config": {
+    "sensory_gain": 45.0,
+    "lamina_drive": 8.0,
+    "warmup_ms": 50.0,
+    "duration_ms": 100.0,
+    "bins": 4,
+    "half_saturation": 0.02,
+    "invert": false
+  },
+  "neurons": [
+    119460,
+    50500,
+    10006,
+    9941,
+    24254,
+    39381,
+    3951,
+    9938,
+    18174,
+    28853,
+    4657,
+    27296,
+    26655,
+    6725,
+    5846,
+    20276,
+    11123,
+    90906,
+    133968,
+    3413,
+    1220,
+    16676,
+    2509,
+    51773,
+    6486,
+    11497,
+    57691,
+    124669,
+    38338,
+    4249,
+    8858,
+    20200,
+    21778,
+    25322,
+    33871,
+    35843,
+    31,
+    3841,
+    4625,
+    16812
+  ],
+  "feature_count": 160,
+  "varying_candidate_cells": 40,
+  "mean_downstream_spikes": 814.775,
+  "fit": {
+    "C": 0.001,
+    "trials": [
+      {
+        "C": 0.001,
+        "validation_accuracy": 0.3125,
+        "converged": true
+      },
+      {
+        "C": 0.01,
+        "validation_accuracy": 0.2875,
+        "converged": true
+      },
+      {
+        "C": 0.1,
+        "validation_accuracy": 0.25,
+        "converged": true
+      },
+      {
+        "C": 1.0,
+        "validation_accuracy": 0.2,
+        "converged": true
+      }
+    ],
+    "validation_accuracy": 0.3125
+  },
+  "wall_seconds": 12.90378375025466,
+  "glyphs": 200,
+  "rss_mib": 1129.296875
+}

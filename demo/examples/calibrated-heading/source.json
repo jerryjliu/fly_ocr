@@ -1,0 +1,17 @@
+{
+  "id": "calibrated-heading",
+  "title": "Full glyph coverage through the fly circuit",
+  "caption": "An uppercase report heading",
+  "source": "Microsoft 2025 Annual Report \u00b7 PDF page 42",
+  "page": 42,
+  "region": [
+    0.39,
+    0.095,
+    0.61,
+    0.114
+  ],
+  "note": "One 100 ms circuit pass per glyph. Calibrated input; compact neural readout; no word correction.",
+  "reference_id": "trained-heading",
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf"
+}

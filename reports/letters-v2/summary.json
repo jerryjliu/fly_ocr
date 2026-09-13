@@ -1,0 +1,170 @@
+{
+  "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+  "architecture": {
+    "hidden": [
+      64
+    ],
+    "count_transform": "sqrt",
+    "parameters": 266628
+  },
+  "matched": {
+    "original": {
+      "n": 1632,
+      "correct": 1222,
+      "accuracy": 0.7487745098039216
+    },
+    "selected": {
+      "n": 1632,
+      "correct": 1429,
+      "accuracy": 0.8756127450980392
+    },
+    "original_letters": {
+      "n": 1248,
+      "correct": 897,
+      "accuracy": 0.71875
+    },
+    "selected_letters": {
+      "n": 1248,
+      "correct": 1061,
+      "accuracy": 0.8501602564102564
+    }
+  },
+  "fresh": {
+    "original": {
+      "n": 544,
+      "correct": 423,
+      "accuracy": 0.7775735294117647
+    },
+    "selected": {
+      "n": 544,
+      "correct": 462,
+      "accuracy": 0.8492647058823529
+    },
+    "original_letters": {
+      "n": 416,
+      "correct": 335,
+      "accuracy": 0.8052884615384616
+    },
+    "selected_letters": {
+      "n": 416,
+      "correct": 368,
+      "accuracy": 0.8846153846153846
+    },
+    "paired": {
+      "new_correct_old_wrong": 75,
+      "old_correct_new_wrong": 36
+    }
+  },
+  "pdf": {
+    "original": {
+      "edits": 34,
+      "characters": 176,
+      "exact_lines": 0,
+      "lines": 8,
+      "seconds": 58.85033861827105,
+      "cer": 0.19318181818181818
+    },
+    "selected": {
+      "edits": 10,
+      "characters": 176,
+      "exact_lines": 1,
+      "lines": 8,
+      "seconds": 51.369934575632215,
+      "cer": 0.056818181818181816
+    }
+  },
+  "examples": [
+    {
+      "id": "calibrated-heading",
+      "reference_id": "trained-heading",
+      "original": {
+        "cer": 0.2857142857142857,
+        "exact_lines": 0,
+        "lines": 1,
+        "raw_lines": [
+          "EALANC5 SH55TS"
+        ]
+      },
+      "selected": {
+        "cer": 0.14285714285714285,
+        "exact_lines": 0,
+        "lines": 1,
+        "raw_lines": [
+          "BALANCE 5HEET5"
+        ]
+      }
+    },
+    {
+      "id": "calibrated-labels",
+      "reference_id": "trained-labels",
+      "original": {
+        "cer": 0.14893617021276595,
+        "exact_lines": 0,
+        "lines": 2,
+        "raw_lines": [
+          "Carb and carb equiyalentr",
+          "Short-term invertments"
+        ]
+      },
+      "selected": {
+        "cer": 0.02127659574468085,
+        "exact_lines": 1,
+        "lines": 2,
+        "raw_lines": [
+          "Cash and cash equivaIents",
+          "Short-term investments"
+        ]
+      }
+    },
+    {
+      "id": "calibrated-labels-more",
+      "reference_id": "trained-labels-more",
+      "original": {
+        "cer": 0.2,
+        "exact_lines": 0,
+        "lines": 5,
+        "raw_lines": [
+          "Ooerating leare right-pf-ure arsetr",
+          "Fquitv and other invertments",
+          "GpodwiII",
+          "IntanqihIe arrets. net",
+          "Otber Iong-term arretr"
+        ]
+      },
+      "selected": {
+        "cer": 0.06086956521739131,
+        "exact_lines": 0,
+        "lines": 5,
+        "raw_lines": [
+          "Operating Iease right-of-use assets",
+          "Equity and other investmenls",
+          "GoodwiII",
+          "intangible assels, net",
+          "Other lonq-term assets"
+        ]
+      }
+    }
+  ],
+  "timing": {
+    "original": {
+      "seconds_per_glyph": 0.29527729938854463,
+      "mean_spikes": 82226.9375,
+      "model_id": "e5a1d1563401d68d151fb227b89a66b837b9ae44c1c5dff1336723392c57b97e"
+    },
+    "balanced": {
+      "seconds_per_glyph": 0.28903756773797795,
+      "mean_spikes": 81942.375,
+      "model_id": "6a05564214a7bf206021bb0de83fe392e9984828c89402d8ec57b4ad66a28e4d"
+    }
+  },
+  "decoder_seconds_per_glyph": {
+    "original": 0.0007056376292894128,
+    "selected": 0.001116789909428917
+  },
+  "source_arrays_unchanged": {
+    "ptr": true,
+    "post": true,
+    "weight": true,
+    "uv": true
+  }
+}

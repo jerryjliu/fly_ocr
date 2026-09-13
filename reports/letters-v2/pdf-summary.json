@@ -1,0 +1,29 @@
+{
+  "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+  "examples": [
+    {
+      "id": "calibrated-heading",
+      "reference_id": "trained-heading",
+      "character_error_rate": 0.14285714285714285,
+      "correct_cells": 0,
+      "n_cells": 1,
+      "wall_seconds": 4.469216498546302
+    },
+    {
+      "id": "calibrated-labels",
+      "reference_id": "trained-labels",
+      "character_error_rate": 0.02127659574468085,
+      "correct_cells": 1,
+      "n_cells": 2,
+      "wall_seconds": 15.423741995822638
+    },
+    {
+      "id": "calibrated-labels-more",
+      "reference_id": "trained-labels-more",
+      "character_error_rate": 0.06086956521739131,
+      "correct_cells": 0,
+      "n_cells": 5,
+      "wall_seconds": 31.476976081263274
+    }
+  ]
+}

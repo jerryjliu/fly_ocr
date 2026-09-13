@@ -1,0 +1,19 @@
+# Preserve upstream license text exactly, including original whitespace.
+assets/fonts/**/OFL.txt -whitespace
+viewer/public/fonts/OFL.txt -whitespace
+licenses/* -whitespace
+# These are reproducible experiment outputs, not hand-authored source.
+demo/run/run.json -diff linguist-generated=true
+demo/examples/**/run.json -diff linguist-generated=true
+artifacts/** linguist-generated=true
+reports/** linguist-generated=true
+*.csv -text whitespace=cr-at-eol
+
+# Binary assets must retain exact bytes on every platform.
+*.pdf binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.npy binary
+*.npz binary
+*.ttf binary

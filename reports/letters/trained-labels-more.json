@@ -1,0 +1,63 @@
+{
+  "run_sha256": "0eaf04666f2004b9994e399e9a84f5a12501ba5dbe341a72217c3bab80d86a7c",
+  "truth_sha256": "8910a81cde50059aec9a14b7633f14eb85add49c4a942d2aada6b950912d5a2c",
+  "n_cells": 5,
+  "correct_cells": 0,
+  "cell_exact_match": 0.0,
+  "character_error_rate": 0.2,
+  "edit_errors": 23,
+  "truth_characters": 115,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 5,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01",
+      "truth": "Operating lease right-of-use assets",
+      "prediction": "Ooerating leare right-pf-ure arsetr",
+      "exact": false,
+      "edit_distance": 6,
+      "expected_glyphs": 35,
+      "segmented_glyphs": 35
+    },
+    {
+      "row_id": "r02",
+      "truth": "Equity and other investments",
+      "prediction": "Fquitv and other invertments",
+      "exact": false,
+      "edit_distance": 3,
+      "expected_glyphs": 28,
+      "segmented_glyphs": 28
+    },
+    {
+      "row_id": "r03",
+      "truth": "Goodwill",
+      "prediction": "GpodwiII",
+      "exact": false,
+      "edit_distance": 3,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r04",
+      "truth": "Intangible assets, net",
+      "prediction": "IntanqihIe arrets. net",
+      "exact": false,
+      "edit_distance": 6,
+      "expected_glyphs": 22,
+      "segmented_glyphs": 22
+    },
+    {
+      "row_id": "r05",
+      "truth": "Other long-term assets",
+      "prediction": "Otber Iong-term arretr",
+      "exact": false,
+      "edit_distance": 5,
+      "expected_glyphs": 22,
+      "segmented_glyphs": 22
+    }
+  ],
+  "threshold_met": false,
+  "scope": "Selected upright printed text lines, with geometric spaces; no text correction",
+  "uncertainty": "PDF pixels informed segmentation development; not a general OCR benchmark."
+}

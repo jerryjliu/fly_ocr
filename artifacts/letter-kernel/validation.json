@@ -1,0 +1,54 @@
+{
+  "previous_validation_accuracy": 0.7922794222831726,
+  "best_accuracy": 0.7922794222831726,
+  "selected": "mlp",
+  "trials": [
+    {
+      "gamma_multiplier": 0.25,
+      "alpha": 0.001,
+      "validation_accuracy": 0.7665441176470589
+    },
+    {
+      "gamma_multiplier": 0.25,
+      "alpha": 0.01,
+      "validation_accuracy": 0.7784926470588235
+    },
+    {
+      "gamma_multiplier": 0.25,
+      "alpha": 0.1,
+      "validation_accuracy": 0.765625
+    },
+    {
+      "gamma_multiplier": 1.0,
+      "alpha": 0.001,
+      "validation_accuracy": 0.7683823529411765
+    },
+    {
+      "gamma_multiplier": 1.0,
+      "alpha": 0.01,
+      "validation_accuracy": 0.7665441176470589
+    },
+    {
+      "gamma_multiplier": 1.0,
+      "alpha": 0.1,
+      "validation_accuracy": 0.7674632352941176
+    },
+    {
+      "gamma_multiplier": 4.0,
+      "alpha": 0.001,
+      "validation_accuracy": 0.7509191176470589
+    },
+    {
+      "gamma_multiplier": 4.0,
+      "alpha": 0.01,
+      "validation_accuracy": 0.7518382352941176
+    },
+    {
+      "gamma_multiplier": 4.0,
+      "alpha": 0.1,
+      "validation_accuracy": 0.7472426470588235
+    }
+  ],
+  "test_access": false,
+  "wall_seconds": 11.318372167181224
+}

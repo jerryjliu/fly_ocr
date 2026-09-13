@@ -1,0 +1,222 @@
+{
+  "architecture": "Conv8-pool-Conv16-pool-FC64-linear, ReLU, 48x48 input",
+  "seed": 911,
+  "parameters": 149418,
+  "selection": "best validation epoch of fixed 20-epoch budget",
+  "trials": [
+    {
+      "epoch": 1,
+      "validation_accuracy": 0.5600000023841858
+    },
+    {
+      "epoch": 2,
+      "validation_accuracy": 0.9300000071525574
+    },
+    {
+      "epoch": 3,
+      "validation_accuracy": 0.9399999976158142
+    },
+    {
+      "epoch": 4,
+      "validation_accuracy": 0.9599999785423279
+    },
+    {
+      "epoch": 5,
+      "validation_accuracy": 0.9649999737739563
+    },
+    {
+      "epoch": 6,
+      "validation_accuracy": 0.9599999785423279
+    },
+    {
+      "epoch": 7,
+      "validation_accuracy": 0.9750000238418579
+    },
+    {
+      "epoch": 8,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 9,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 10,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 11,
+      "validation_accuracy": 0.9649999737739563
+    },
+    {
+      "epoch": 12,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 13,
+      "validation_accuracy": 0.9649999737739563
+    },
+    {
+      "epoch": 14,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 15,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 16,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 17,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 18,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 19,
+      "validation_accuracy": 0.9700000286102295
+    },
+    {
+      "epoch": 20,
+      "validation_accuracy": 0.9700000286102295
+    }
+  ],
+  "test": {
+    "n": 500,
+    "correct": 500,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "wilson_95": [
+      0.9923753814690964,
+      0.9999999999999999
+    ],
+    "interval_caveat": "Image-level binomial interval; shared fonts introduce dependence.",
+    "confusion_matrix": [
+      [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50
+      ]
+    ]
+  },
+  "corpus_id": "6296ffe2e52f6e89fed9d40940a63eb268bb2da87d45f474890ebd10c7f8eef5"
+}

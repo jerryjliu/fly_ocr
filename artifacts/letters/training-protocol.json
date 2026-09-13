@@ -1,0 +1,17 @@
+{
+  "characters": "0123456789,.-()$ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+  "corpus_id": "001132c94f42a7994dc52548aa10d8ffd025675dfc84ef9a0fc5ba1ca5655f19",
+  "model_id": "e5a1d1563401d68d151fb227b89a66b837b9ae44c1c5dff1336723392c57b97e",
+  "normalization": "line-box-v1",
+  "feature_selection": "training variance; 8 examples/class; max1024 cells",
+  "regularization_strengths": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "test_access_before_freeze": false,
+  "workers": 2,
+  "internal_weights_learned": false
+}

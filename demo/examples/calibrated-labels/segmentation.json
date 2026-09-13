@@ -1,0 +1,819 @@
+{
+  "format": 1,
+  "normalization": "line-box-v1",
+  "crop_sha256": "746f24ed3696fe8949b47d140458db20eb23100af34c70166db9ffe3a2acd103",
+  "source_ink_box": [
+    12,
+    13,
+    491,
+    95
+  ],
+  "method": "pixel projections, cautious narrow bridge splitting, estimated baseline, geometric word gaps",
+  "scope": "upright printed text region; no OCR, dictionary, or embedded PDF text",
+  "rows": [
+    {
+      "row_id": "r01",
+      "box": [
+        12,
+        13,
+        491,
+        54
+      ],
+      "glyph_boxes": [
+        [
+          12,
+          14,
+          34,
+          45
+        ],
+        [
+          38,
+          23,
+          54,
+          45
+        ],
+        [
+          59,
+          23,
+          73,
+          45
+        ],
+        [
+          78,
+          13,
+          96,
+          44
+        ],
+        [
+          112,
+          23,
+          128,
+          45
+        ],
+        [
+          134,
+          23,
+          152,
+          44
+        ],
+        [
+          157,
+          13,
+          176,
+          45
+        ],
+        [
+          193,
+          23,
+          209,
+          45
+        ],
+        [
+          212,
+          23,
+          228,
+          45
+        ],
+        [
+          233,
+          23,
+          247,
+          45
+        ],
+        [
+          252,
+          13,
+          270,
+          44
+        ],
+        [
+          286,
+          23,
+          304,
+          45
+        ],
+        [
+          308,
+          23,
+          327,
+          54
+        ],
+        [
+          333,
+          23,
+          351,
+          45
+        ],
+        [
+          357,
+          14,
+          361,
+          44
+        ],
+        [
+          364,
+          23,
+          384,
+          44
+        ],
+        [
+          386,
+          23,
+          402,
+          45
+        ],
+        [
+          408,
+          13,
+          412,
+          44
+        ],
+        [
+          417,
+          23,
+          436,
+          45
+        ],
+        [
+          440,
+          23,
+          458,
+          44
+        ],
+        [
+          461,
+          17,
+          474,
+          45
+        ],
+        [
+          477,
+          23,
+          491,
+          45
+        ]
+      ],
+      "baseline": 45.0,
+      "cap_height": 32.0,
+      "glyphs": [
+        {
+          "id": "r01-g01",
+          "box": [
+            12,
+            14,
+            34,
+            45
+          ],
+          "image": "glyphs/r01-g01.png",
+          "sha256": "129fcd0ee862cf404f772a1b0d767771a105b86f1fbf3642704abb33c9d25d77",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g02",
+          "box": [
+            38,
+            23,
+            54,
+            45
+          ],
+          "image": "glyphs/r01-g02.png",
+          "sha256": "45e8e4f2df5665c8697f718b57deaeec3d46826c717164345e187ad77e337880",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g03",
+          "box": [
+            59,
+            23,
+            73,
+            45
+          ],
+          "image": "glyphs/r01-g03.png",
+          "sha256": "ebe849ba528a02911cc976a87ee9d4268ef55fd9c1187d76ea30f895f76085fc",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g04",
+          "box": [
+            78,
+            13,
+            96,
+            44
+          ],
+          "image": "glyphs/r01-g04.png",
+          "sha256": "1942bda1122e3de0a15476a3c170ef1cf9754599f337cb474151072d81336fac",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g05",
+          "box": [
+            112,
+            23,
+            128,
+            45
+          ],
+          "image": "glyphs/r01-g05.png",
+          "sha256": "45e8e4f2df5665c8697f718b57deaeec3d46826c717164345e187ad77e337880",
+          "prefix": " "
+        },
+        {
+          "id": "r01-g06",
+          "box": [
+            134,
+            23,
+            152,
+            44
+          ],
+          "image": "glyphs/r01-g06.png",
+          "sha256": "f6691880fe605bee3ff1621cbcd4041edcd1e927f633f5657f2f800259df998f",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g07",
+          "box": [
+            157,
+            13,
+            176,
+            45
+          ],
+          "image": "glyphs/r01-g07.png",
+          "sha256": "1bf7a6623e4bd9cac490b1524eb0b275486314575ad653105c109c1004bf813f",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g08",
+          "box": [
+            193,
+            23,
+            209,
+            45
+          ],
+          "image": "glyphs/r01-g08.png",
+          "sha256": "5d3f0990d2b481f4c8e272483b43873dc9de3e34dfa60f04e9867f614946ac94",
+          "prefix": " "
+        },
+        {
+          "id": "r01-g09",
+          "box": [
+            212,
+            23,
+            228,
+            45
+          ],
+          "image": "glyphs/r01-g09.png",
+          "sha256": "45e8e4f2df5665c8697f718b57deaeec3d46826c717164345e187ad77e337880",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g10",
+          "box": [
+            233,
+            23,
+            247,
+            45
+          ],
+          "image": "glyphs/r01-g10.png",
+          "sha256": "ebe849ba528a02911cc976a87ee9d4268ef55fd9c1187d76ea30f895f76085fc",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g11",
+          "box": [
+            252,
+            13,
+            270,
+            44
+          ],
+          "image": "glyphs/r01-g11.png",
+          "sha256": "1942bda1122e3de0a15476a3c170ef1cf9754599f337cb474151072d81336fac",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g12",
+          "box": [
+            286,
+            23,
+            304,
+            45
+          ],
+          "image": "glyphs/r01-g12.png",
+          "sha256": "31c2d5541a8f484dbb4e887b16708364d7370e27c296bce1f9668e7b2cef02b6",
+          "prefix": " "
+        },
+        {
+          "id": "r01-g13",
+          "box": [
+            308,
+            23,
+            327,
+            54
+          ],
+          "image": "glyphs/r01-g13.png",
+          "sha256": "a8ccdb3247b6934bd1a9624679526fd0c2b8a5fa9af43cd7fe7d5895755049f0",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g14",
+          "box": [
+            333,
+            23,
+            351,
+            45
+          ],
+          "image": "glyphs/r01-g14.png",
+          "sha256": "1e3eb9b84231e5d6b15da32cb6ceac8a908fc41e6ffa0245d4d012678b46fb7f",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g15",
+          "box": [
+            357,
+            14,
+            361,
+            44
+          ],
+          "image": "glyphs/r01-g15.png",
+          "sha256": "2f5ea6dd81cc23df0701d400892f72ceff9095362aec70e8064eacd4e5698455",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g16",
+          "box": [
+            364,
+            23,
+            384,
+            44
+          ],
+          "image": "glyphs/r01-g16.png",
+          "sha256": "8c50cac78aa8d321f2f11c8af44e5faa5c7027006af94b4adb6c4540038394c4",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g17",
+          "box": [
+            386,
+            23,
+            402,
+            45
+          ],
+          "image": "glyphs/r01-g17.png",
+          "sha256": "45e8e4f2df5665c8697f718b57deaeec3d46826c717164345e187ad77e337880",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g18",
+          "box": [
+            408,
+            13,
+            412,
+            44
+          ],
+          "image": "glyphs/r01-g18.png",
+          "sha256": "ce96ea8f77637fd60b1dd0f58a28cdbe3fa2ce6e998006dc84d9364430b82aa7",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g19",
+          "box": [
+            417,
+            23,
+            436,
+            45
+          ],
+          "image": "glyphs/r01-g19.png",
+          "sha256": "d6ef71566039161d578546b6642f7bbab419fc3128154369c3c1fdbf07a44c8a",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g20",
+          "box": [
+            440,
+            23,
+            458,
+            44
+          ],
+          "image": "glyphs/r01-g20.png",
+          "sha256": "79f80f60467a13688cf2838778326604c9d6388edb6b3bc73573553bf1193606",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g21",
+          "box": [
+            461,
+            17,
+            474,
+            45
+          ],
+          "image": "glyphs/r01-g21.png",
+          "sha256": "fd4d9b1260fb3fffca702278ec7afa341a4723f60d475d475f92e2a77d29bbe9",
+          "prefix": ""
+        },
+        {
+          "id": "r01-g22",
+          "box": [
+            477,
+            23,
+            491,
+            45
+          ],
+          "image": "glyphs/r01-g22.png",
+          "sha256": "7283cebf9dd7df84c2d686b9c50bfcec75722bc6bcb4f1f5f19654e1f4e934fb",
+          "prefix": ""
+        }
+      ]
+    },
+    {
+      "row_id": "r02",
+      "box": [
+        13,
+        63,
+        442,
+        95
+      ],
+      "glyph_boxes": [
+        [
+          13,
+          64,
+          30,
+          95
+        ],
+        [
+          35,
+          63,
+          53,
+          94
+        ],
+        [
+          58,
+          73,
+          79,
+          95
+        ],
+        [
+          83,
+          73,
+          95,
+          94
+        ],
+        [
+          95,
+          67,
+          108,
+          95
+        ],
+        [
+          112,
+          81,
+          123,
+          84
+        ],
+        [
+          126,
+          67,
+          139,
+          95
+        ],
+        [
+          142,
+          73,
+          160,
+          95
+        ],
+        [
+          165,
+          73,
+          176,
+          94
+        ],
+        [
+          179,
+          73,
+          209,
+          94
+        ],
+        [
+          226,
+          64,
+          230,
+          94
+        ],
+        [
+          236,
+          73,
+          254,
+          94
+        ],
+        [
+          257,
+          73,
+          276,
+          94
+        ],
+        [
+          278,
+          73,
+          297,
+          95
+        ],
+        [
+          300,
+          73,
+          314,
+          95
+        ],
+        [
+          317,
+          67,
+          329,
+          95
+        ],
+        [
+          333,
+          73,
+          363,
+          94
+        ],
+        [
+          368,
+          73,
+          386,
+          95
+        ],
+        [
+          391,
+          73,
+          409,
+          94
+        ],
+        [
+          412,
+          67,
+          425,
+          95
+        ],
+        [
+          427,
+          73,
+          442,
+          95
+        ]
+      ],
+      "baseline": 95.0,
+      "cap_height": 32.0,
+      "glyphs": [
+        {
+          "id": "r02-g01",
+          "box": [
+            13,
+            64,
+            30,
+            95
+          ],
+          "image": "glyphs/r02-g01.png",
+          "sha256": "a0bd576479c3b0f24a490d319dc3710e57d13fa942b600ffe883ca02bb3ebd0f",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g02",
+          "box": [
+            35,
+            63,
+            53,
+            94
+          ],
+          "image": "glyphs/r02-g02.png",
+          "sha256": "f902dc986455a37416bd5fd49cbdc13accff219e15000783bfa30b8337e02277",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g03",
+          "box": [
+            58,
+            73,
+            79,
+            95
+          ],
+          "image": "glyphs/r02-g03.png",
+          "sha256": "01dfa3e1dadefef521796b89ceb3c2105b6dabb3bde053d79400fa81f8feebb4",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g04",
+          "box": [
+            83,
+            73,
+            95,
+            94
+          ],
+          "image": "glyphs/r02-g04.png",
+          "sha256": "c83c7972740746365c8921ee1badb85dca1a2cfc53f0e45bc9765488be792641",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g05",
+          "box": [
+            95,
+            67,
+            108,
+            95
+          ],
+          "image": "glyphs/r02-g05.png",
+          "sha256": "aed2a8d03f716e76f96753e82185a6673d54ee21957c750b79499598d817f491",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g06",
+          "box": [
+            112,
+            81,
+            123,
+            84
+          ],
+          "image": "glyphs/r02-g06.png",
+          "sha256": "3b2dfcce3b0f0f533158cc9f525149b42a22c6e484a6db3af3e035eb684e28f8",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g07",
+          "box": [
+            126,
+            67,
+            139,
+            95
+          ],
+          "image": "glyphs/r02-g07.png",
+          "sha256": "fd4d9b1260fb3fffca702278ec7afa341a4723f60d475d475f92e2a77d29bbe9",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g08",
+          "box": [
+            142,
+            73,
+            160,
+            95
+          ],
+          "image": "glyphs/r02-g08.png",
+          "sha256": "08f977a02360f4672c98ea5433a40a6a79e6b9c18c60139ecc90bb2b43d4c03b",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g09",
+          "box": [
+            165,
+            73,
+            176,
+            94
+          ],
+          "image": "glyphs/r02-g09.png",
+          "sha256": "7b3241059f0a722988580f9dd876d4d4ade6e1909dca086ca3da59a0074ad255",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g10",
+          "box": [
+            179,
+            73,
+            209,
+            94
+          ],
+          "image": "glyphs/r02-g10.png",
+          "sha256": "b4e1f100ac58637f993d4901a6632a9b3709e633ebaac18c4ba5bddc94574d52",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g11",
+          "box": [
+            226,
+            64,
+            230,
+            94
+          ],
+          "image": "glyphs/r02-g11.png",
+          "sha256": "2f5ea6dd81cc23df0701d400892f72ceff9095362aec70e8064eacd4e5698455",
+          "prefix": " "
+        },
+        {
+          "id": "r02-g12",
+          "box": [
+            236,
+            73,
+            254,
+            94
+          ],
+          "image": "glyphs/r02-g12.png",
+          "sha256": "79f80f60467a13688cf2838778326604c9d6388edb6b3bc73573553bf1193606",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g13",
+          "box": [
+            257,
+            73,
+            276,
+            94
+          ],
+          "image": "glyphs/r02-g13.png",
+          "sha256": "861e4011bdb28a580f27e9152451cfad1c5b57a9a119a2551a6985866237c089",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g14",
+          "box": [
+            278,
+            73,
+            297,
+            95
+          ],
+          "image": "glyphs/r02-g14.png",
+          "sha256": "ba6cc5086e5d06f5c0fbddcef89e3cd678948b401e47dfc716269c4ef1f9b5b7",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g15",
+          "box": [
+            300,
+            73,
+            314,
+            95
+          ],
+          "image": "glyphs/r02-g15.png",
+          "sha256": "ebe849ba528a02911cc976a87ee9d4268ef55fd9c1187d76ea30f895f76085fc",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g16",
+          "box": [
+            317,
+            67,
+            329,
+            95
+          ],
+          "image": "glyphs/r02-g16.png",
+          "sha256": "0dc0c8b4510334ef7ccf3de266c1e1f7c002a7a40b32e761d50d9ef5598607db",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g17",
+          "box": [
+            333,
+            73,
+            363,
+            94
+          ],
+          "image": "glyphs/r02-g17.png",
+          "sha256": "992bb8c0957575fdd4535c4ddff2547e5a6cfd6752ad0330d3fab692d891a9d0",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g18",
+          "box": [
+            368,
+            73,
+            386,
+            95
+          ],
+          "image": "glyphs/r02-g18.png",
+          "sha256": "31c2d5541a8f484dbb4e887b16708364d7370e27c296bce1f9668e7b2cef02b6",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g19",
+          "box": [
+            391,
+            73,
+            409,
+            94
+          ],
+          "image": "glyphs/r02-g19.png",
+          "sha256": "1523cd43b2fcc55eb91838542fe7bb72268853bb9c60ae63db71ba99f87753ae",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g20",
+          "box": [
+            412,
+            67,
+            425,
+            95
+          ],
+          "image": "glyphs/r02-g20.png",
+          "sha256": "fd4d9b1260fb3fffca702278ec7afa341a4723f60d475d475f92e2a77d29bbe9",
+          "prefix": ""
+        },
+        {
+          "id": "r02-g21",
+          "box": [
+            427,
+            73,
+            442,
+            95
+          ],
+          "image": "glyphs/r02-g21.png",
+          "sha256": "a2b61dee1b982d681a92755f05590fca77d4107fcc3d6cdbbaaf3b9f63805b7e",
+          "prefix": ""
+        }
+      ]
+    }
+  ]
+}

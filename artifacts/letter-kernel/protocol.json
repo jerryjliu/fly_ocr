@@ -1,0 +1,19 @@
+{
+  "source_artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+  "inputs": "recorded brain spike counts only",
+  "components": 64,
+  "whiten": true,
+  "gamma_multipliers": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "ridge_strengths": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "model_selection": "validation accuracy only",
+  "test_access": false,
+  "note": "Exploratory refinement after observing earlier PDF/test errors. No PDF inputs or labels enter fitting."
+}

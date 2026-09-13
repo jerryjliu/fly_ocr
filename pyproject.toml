@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flyocr"
+version = "0.1.0"
+description = "An experimental frozen fruit-fly connectome with a trained glyph readout"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.26,<2", "scipy>=1.14,<2", "scikit-learn>=1.5,<2",
+  "pyarrow>=18,<24", "pandas>=2.2,<3", "pillow>=11,<13",
+  "pyyaml>=6,<7", "psutil>=6,<8"
+]
+
+[project.optional-dependencies]
+report = ["reportlab>=4,<5", "pypdf>=5,<7", "matplotlib>=3.9,<4"]
+dev = ["pytest>=8,<10", "brian2>=2.8,<3"]
+cloud = ["modal>=1,<2"]
+benchmarks = [
+    "torch>=2.5,<3",
+]
+video = [
+    "imageio-ffmpeg>=0.6,<1",
+]
+
+[project.urls]
+Repository = "https://github.com/jerryjliu/fly_ocr"
+
+[project.scripts]
+flyocr = "flyocr.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flyocr"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"licenses/DOOMFLY-MIT.txt" = "flyocr/licenses/DOOMFLY-MIT.txt"
+"THIRD_PARTY_NOTICES.md" = "flyocr/licenses/THIRD_PARTY_NOTICES.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

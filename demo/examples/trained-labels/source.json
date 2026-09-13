@@ -1,0 +1,17 @@
+{
+  "id": "trained-labels",
+  "title": "Uppercase and lowercase, together",
+  "caption": "Two actual report labels",
+  "source": "Microsoft 2025 Annual Report \u00b7 PDF page 42",
+  "page": 42,
+  "region": [
+    0.08,
+    0.197,
+    0.396,
+    0.229
+  ],
+  "note": "One glyph at a time, with letter height preserved. Raw output includes any mistakes.",
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "selection": "Three source regions selected while readout training was still running, before letter predictions. All selected lines will be reported. These PDF pixels informed segmentation development, not neural fitting."
+}

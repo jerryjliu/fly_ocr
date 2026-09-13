@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "characters": "0123456789,.-()$",
+  "corpus_id": "c6f4bf8e3fb386122beab3b496405d3571085a240d3c8cbf4e92e484c1f01096",
+  "model_id": "e5a1d1563401d68d151fb227b89a66b837b9ae44c1c5dff1336723392c57b97e",
+  "graph_id": "8b28f61727e73f35411fe7b85000e2aa4a5ab168a95ab56ab8ea20d09f3b5148",
+  "config": {
+    "sensory_gain": 20.0,
+    "lamina_drive": 20.0,
+    "warmup_ms": 50.0,
+    "duration_ms": 100.0,
+    "bins": 4,
+    "half_saturation": 0.2,
+    "invert": true
+  },
+  "readout_sha256": "7cbfa3728d2df88f2a21c3f91eb41fa8a6f5678390422244e956a64131105c4b",
+  "selection_sha256": "fa04ac78fe3df382d84e8bfbb8fd2d1d5f4c3f0213c4c0a607e6bb20918c1c90",
+  "feature_cells": 512,
+  "feature_count": 2048,
+  "fit": {
+    "C": 0.1,
+    "trials": [
+      {
+        "C": 0.001,
+        "validation_accuracy": 0.9104166666666667,
+        "converged": true
+      },
+      {
+        "C": 0.01,
+        "validation_accuracy": 0.91875,
+        "converged": true
+      },
+      {
+        "C": 0.1,
+        "validation_accuracy": 0.9208333333333333,
+        "converged": true
+      },
+      {
+        "C": 1.0,
+        "validation_accuracy": 0.9166666666666666,
+        "converged": true
+      },
+      {
+        "C": 10.0,
+        "validation_accuracy": 0.9166666666666666,
+        "converged": true
+      }
+    ],
+    "validation_accuracy": 0.9208333333333333
+  },
+  "reject_threshold": 0.0,
+  "rejection_policy": "closed 16/10-class vocabulary; no calibrated open-set detector",
+  "learned": "training standardization and regularized linear readout only",
+  "fixed": "retinal projection, cell dynamics, all internal edges and weights",
+  "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853"
+}

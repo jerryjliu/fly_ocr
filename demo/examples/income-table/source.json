@@ -1,0 +1,20 @@
+{
+  "id": "income-table",
+  "title": "Can it return a table of values?",
+  "caption": "Comprehensive income",
+  "source": "Microsoft 2025 Annual Report \u00b7 PDF page 41",
+  "page": 41,
+  "region": [
+    0.675,
+    0.146,
+    0.942,
+    0.319
+  ],
+  "table": true,
+  "note": "Three year columns. Row and column positions come from pixel geometry; labels are outside the crop.",
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "prepared_crop_sha256": "e84af72ca44c32fe366a61640b894cf8aa0c8f636a2ba78e38dac699d26bc64d",
+  "selection": "Regions and expected transcriptions declared from source pixels before new predictions. Same frozen numeric decoder for every example. No cell-level cherry-picking or postprocessing repair.",
+  "crop_operation": "Poppler 300 dpi, normalized region, optional declared rotation"
+}

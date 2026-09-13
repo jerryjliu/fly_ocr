@@ -1,0 +1,316 @@
+{
+  "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+  "crop_sha256": "e84af72ca44c32fe366a61640b894cf8aa0c8f636a2ba78e38dac699d26bc64d",
+  "layout": {
+    "n_rows": 7,
+    "n_columns": 3,
+    "column_bounds": [
+      [
+        0,
+        243
+      ],
+      [
+        243,
+        456
+      ],
+      [
+        456,
+        660
+      ]
+    ],
+    "method": "horizontal rule removal, whitespace columns constrained by cell rules, baseline alignment",
+    "scope": "manually selected numeric region; no semantic labels or merged-cell inference"
+  },
+  "cells": [
+    {
+      "row_id": "r01-c01",
+      "box": [
+        137,
+        17,
+        210,
+        42
+      ],
+      "raw": "2025",
+      "table_row": 0,
+      "table_column": 0
+    },
+    {
+      "row_id": "r01-c02",
+      "box": [
+        351,
+        17,
+        426,
+        42
+      ],
+      "raw": "2024",
+      "table_row": 0,
+      "table_column": 1
+    },
+    {
+      "row_id": "r01-c03",
+      "box": [
+        566,
+        17,
+        639,
+        42
+      ],
+      "raw": "2023",
+      "table_row": 0,
+      "table_column": 2
+    },
+    {
+      "row_id": "r02-c01",
+      "box": [
+        14,
+        75,
+        210,
+        113
+      ],
+      "raw": "$101,832",
+      "table_row": 1,
+      "table_column": 0
+    },
+    {
+      "row_id": "r02-c02",
+      "box": [
+        265,
+        75,
+        425,
+        114
+      ],
+      "raw": "$88,136",
+      "table_row": 1,
+      "table_column": 1
+    },
+    {
+      "row_id": "r02-c03",
+      "box": [
+        480,
+        75,
+        639,
+        114
+      ],
+      "raw": "$72,361",
+      "table_row": 1,
+      "table_column": 2
+    },
+    {
+      "row_id": "r03-c01",
+      "box": [
+        176,
+        229,
+        224,
+        265
+      ],
+      "raw": "(5)",
+      "table_row": 2,
+      "table_column": 0
+    },
+    {
+      "row_id": "r03-c02",
+      "box": [
+        383,
+        228,
+        425,
+        258
+      ],
+      "raw": "24",
+      "table_row": 2,
+      "table_column": 1
+    },
+    {
+      "row_id": "r03-c03",
+      "box": [
+        587,
+        228,
+        651,
+        265
+      ],
+      "raw": "(14)",
+      "table_row": 2,
+      "table_column": 2
+    },
+    {
+      "row_id": "r04-c01",
+      "box": [
+        108,
+        278,
+        211,
+        313
+      ],
+      "raw": "1,574",
+      "table_row": 3,
+      "table_column": 0
+    },
+    {
+      "row_id": "r04-c02",
+      "box": [
+        361,
+        278,
+        425,
+        309
+      ],
+      "raw": "957",
+      "table_row": 3,
+      "table_column": 1
+    },
+    {
+      "row_id": "r04-c03",
+      "box": [
+        533,
+        278,
+        651,
+        315
+      ],
+      "raw": "(1,444)",
+      "table_row": 3,
+      "table_column": 2
+    },
+    {
+      "row_id": "r05-c01",
+      "box": [
+        142,
+        328,
+        211,
+        359
+      ],
+      "raw": "674",
+      "table_row": 4,
+      "table_column": 0
+    },
+    {
+      "row_id": "r05-c02",
+      "box": [
+        349,
+        328,
+        436,
+        365
+      ],
+      "raw": "(228)",
+      "table_row": 4,
+      "table_column": 1
+    },
+    {
+      "row_id": "r05-c03",
+      "box": [
+        564,
+        328,
+        651,
+        365
+      ],
+      "raw": "(207)",
+      "table_row": 4,
+      "table_column": 2
+    },
+    {
+      "row_id": "r06-c01",
+      "box": [
+        107,
+        407,
+        209,
+        442
+      ],
+      "raw": "2,243",
+      "table_row": 5,
+      "table_column": 0
+    },
+    {
+      "row_id": "r06-c02",
+      "box": [
+        361,
+        407,
+        424,
+        438
+      ],
+      "raw": "753",
+      "table_row": 5,
+      "table_column": 1
+    },
+    {
+      "row_id": "r06-c03",
+      "box": [
+        533,
+        407,
+        651,
+        444
+      ],
+      "raw": "(1,665)",
+      "table_row": 5,
+      "table_column": 2
+    },
+    {
+      "row_id": "r07-c01",
+      "box": [
+        14,
+        483,
+        210,
+        521
+      ],
+      "raw": "$104,075",
+      "table_row": 6,
+      "table_column": 0
+    },
+    {
+      "row_id": "r07-c02",
+      "box": [
+        265,
+        483,
+        425,
+        522
+      ],
+      "raw": "$88,889",
+      "table_row": 6,
+      "table_column": 1
+    },
+    {
+      "row_id": "r07-c03",
+      "box": [
+        480,
+        483,
+        640,
+        522
+      ],
+      "raw": "$70,696",
+      "table_row": 6,
+      "table_column": 2
+    }
+  ],
+  "matrix": [
+    [
+      "2025",
+      "2024",
+      "2023"
+    ],
+    [
+      "$101,832",
+      "$88,136",
+      "$72,361"
+    ],
+    [
+      "(5)",
+      "24",
+      "(14)"
+    ],
+    [
+      "1,574",
+      "957",
+      "(1,444)"
+    ],
+    [
+      "674",
+      "(228)",
+      "(207)"
+    ],
+    [
+      "2,243",
+      "753",
+      "(1,665)"
+    ],
+    [
+      "$104,075",
+      "$88,889",
+      "$70,696"
+    ]
+  ],
+  "disclosure": "Raw strings, no numeric repair, semantic headers, or accounting interpretation."
+}

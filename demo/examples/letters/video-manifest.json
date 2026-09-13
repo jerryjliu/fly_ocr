@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "seconds": 40,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "frames": 960,
+  "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+  "source": "demo/examples/letters/run.json",
+  "run_sha256": "16506d066c8369f3b795d2b1daf2a2dd751066e357d79fd6ce24b51dbd637365",
+  "video_sha256": "252befa2b4dc30eb5275c2252647ffb00cab953b8d70a762ca0bb4ab54fef6ff",
+  "renderer": "viewer/lib/replay.ts",
+  "renderer_sha256": "0a2810e290a9f883014b4b400831a4bcc5d53f61fb304588b99a8ed05b6abc82",
+  "timing": "4 s source context, 28 s edited event replay, 8 s measured results",
+  "video": "output/flyocr-letters.mp4",
+  "motion": "presentation cursor, not a simulated body",
+  "measured_inference_seconds": 4.366150749381632,
+  "atlas_renderer_sha256": "6b1fed38caf0381e3cd1a8f26f6cd8a6c3971e2d10de2f59a86c5ed7578bff47"
+}

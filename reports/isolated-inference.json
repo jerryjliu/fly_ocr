@@ -1,0 +1,10 @@
+{
+  "events": 120,
+  "predictions_identical": true,
+  "neural_counts_identical": true,
+  "network_denied": true,
+  "evaluation_truth_denied": true,
+  "original_pdf_denied": true,
+  "mechanism": "macOS sandbox-exec",
+  "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853"
+}

@@ -1,0 +1,68 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "nodes": 166700,
+  "source_edges": 151856684,
+  "edges": 25582938,
+  "contacts": 124177617,
+  "source_contacts": 311833243,
+  "self_edges": 101,
+  "weight_one_edges": 10299701,
+  "excluded_objects": 44877,
+  "excluded_edges": 126273746,
+  "retinal_inputs": 3335,
+  "tonic_inputs": 7114,
+  "candidate_features": 91490,
+  "unknown_sign_cells": 3718,
+  "source": {
+    "sex": "male",
+    "release": "MaleCNS v1.0",
+    "coverage": "brain_and_ventral_nerve_cord",
+    "source": "https://male-cns.janelia.org/download/",
+    "paper": "https://doi.org/10.1016/j.cell.2026.08.015",
+    "node_policy": "Every entry with an assigned superclass, including uncertain tbc classes; exclude explicit Glia status; no restriction to Traced status or typed cells.",
+    "edge_policy": "All released edges between retained entries; no additional weight threshold or removal of self-connections.",
+    "upstream_filters": [
+      "Published pre/post synapse confidence threshold 0.5",
+      "Only annotated neuronal entries become simulation nodes; other segmentation objects remain in raw data"
+    ],
+    "upstream_autapses_excluded": false,
+    "files": {
+      "annotations.feather": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 14483314,
+        "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+      },
+      "neurotransmitters.feather": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+        "bytes": 43282834,
+        "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+      },
+      "edges.feather": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 1051241946,
+        "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+      }
+    },
+    "expected": {
+      "nodes": 166700,
+      "edges": 25582938,
+      "contacts": 124177617
+    }
+  },
+  "array_hashes": {
+    "ptr": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "post": "c3e01d22c12cb06a3250d98325edcadb08ad2d0c1754a9e3cf82b9a72a9eb49f",
+    "weight": "ecbfa2b6f77b4f88c050ed7bbc6ec27144b6f7b996cdc9669858dabe048f53b7",
+    "ids": "ddfa789213c8c5066400c026b65c112c267781c2e3ab380a39dd437866e704d6",
+    "retina": "3734a01bdaee85df2a69bcf4ac7564b63984cb8dcc171c49c10da17cfa22d388",
+    "uv": "70435f2c052217a66d1f751ec881035bf152c91deb3f040cadf52968c1d94f22",
+    "retina_confidence": "2e5bd24b044a6f2617f1086b7e74ada9cb5844e9ab8bd3923c6488970863f937",
+    "lamina": "19bd7f56efecac5920a73f99a412d1e853b2f995640833ed61ec49dd1a9cd9ac",
+    "candidates": "7bce4a57f4aadb79c225b5acb1f04d35259f458bee598d0c7041295cd96d624f",
+    "signs": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "cell_type": "418acd836ed0c8428869e1c8e83f6bd6e957525554a46fbb5f80d96a978a2852",
+    "superclass": "09414259f8d0c79532e3109f48423ecae225f713c42eee2130c38855bd1e9eb9"
+  },
+  "graph_id": "8b28f61727e73f35411fe7b85000e2aa4a5ab168a95ab56ab8ea20d09f3b5148",
+  "model_assumptions": "LIF proxy, contact-count weights, inferred eye projection; not validated fly vision"
+}

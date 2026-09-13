@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "row_id": "r01",
+      "raw": "Operating lease right-of-use assets"
+    },
+    {
+      "row_id": "r02",
+      "raw": "Equity and other investments"
+    },
+    {
+      "row_id": "r03",
+      "raw": "Goodwill"
+    },
+    {
+      "row_id": "r04",
+      "raw": "Intangible assets, net"
+    },
+    {
+      "row_id": "r05",
+      "raw": "Other long-term assets"
+    }
+  ],
+  "method": "Manual transcription from source pixels while letter training was in progress; includes spaces."
+}

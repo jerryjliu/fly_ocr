@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "seconds": 176,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "frames": 4224,
+  "audio": false,
+  "chapters": [
+    {
+      "id": "intro",
+      "seconds": 8,
+      "title": "Can a fly circuit read?",
+      "start_seconds": 0
+    },
+    {
+      "id": "mapping",
+      "seconds": 14,
+      "title": "The input and the eye atlas",
+      "start_seconds": 8
+    },
+    {
+      "id": "trained-labels",
+      "seconds": 14,
+      "title": "Original input mapping",
+      "start_seconds": 22,
+      "run_sha256": "7254e9c7d0a44d4f528098324686411cfe3e98167bb2ca0267c4850512dfba97"
+    },
+    {
+      "id": "calibrated-labels",
+      "seconds": 26,
+      "title": "Improved input, same fixed circuit",
+      "start_seconds": 36,
+      "run_sha256": "ee5ef7f09f5ad2aab955a6826b466d83c561838179d4df41a158ce8b53c81483"
+    },
+    {
+      "id": "calibrated-heading",
+      "seconds": 16,
+      "title": "An uppercase heading",
+      "start_seconds": 62,
+      "run_sha256": "eafa52ff115a4696a566afc16f260b556e76ab10cf046ad98dd470654fa81274"
+    },
+    {
+      "id": "calibrated-labels-more",
+      "seconds": 20,
+      "title": "Five lines, errors included",
+      "start_seconds": 78,
+      "run_sha256": "e5d304db7ea28403419c7b95c76889e72645e3d7af59b0daff17580f3ac448f6"
+    },
+    {
+      "id": "income-table",
+      "seconds": 22,
+      "title": "A table of numbers",
+      "start_seconds": 98,
+      "run_sha256": "4e1a46fccaeef17b671bbece12c8f140b63d39f588a1303d2a43f9382f5b3774"
+    },
+    {
+      "id": "cash-flow",
+      "seconds": 18,
+      "title": "A larger numeric table",
+      "start_seconds": 120,
+      "run_sha256": "3c52c2fef4fbfcc8f394edda2d4727ec3be1cb72b64e23201b0006b5275aed13"
+    },
+    {
+      "id": "tilted-table",
+      "seconds": 16,
+      "title": "A formatting failure",
+      "start_seconds": 138,
+      "run_sha256": "4cfbea2cccb7adc4be3bf7c89ef3d536ce7ad2816d7a2a1a7795ae241472b9e3"
+    },
+    {
+      "id": "results",
+      "seconds": 14,
+      "title": "Measured results",
+      "start_seconds": 154
+    },
+    {
+      "id": "credits",
+      "seconds": 8,
+      "title": "Try the experiment",
+      "start_seconds": 168
+    }
+  ],
+  "video_sha256": "aeb4ccd9544199178f794366a9127a786ec753347eb174dc600d01fb215edcf1",
+  "renderer_sha256": "0a2810e290a9f883014b4b400831a4bcc5d53f61fb304588b99a8ed05b6abc82",
+  "atlas_renderer_sha256": "6b1fed38caf0381e3cd1a8f26f6cd8a6c3971e2d10de2f59a86c5ed7578bff47",
+  "compilation_renderer_sha256": "0ac7408b3653d32ce0f05ed0edef11d8ae2ec1b35bb94e48dc69887cf8a965e5",
+  "disclosure": "Recorded inference with edited pacing; eye surfaces and fly cursor are schematic. Errors preserved."
+}

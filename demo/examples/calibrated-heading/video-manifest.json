@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "seconds": 40,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "frames": 960,
+  "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+  "source": "demo/examples/calibrated-heading/run.json",
+  "run_sha256": "eafa52ff115a4696a566afc16f260b556e76ab10cf046ad98dd470654fa81274",
+  "video_sha256": "e0f6227c266699a48e27dfb6fba87a982465c54f7914a3d9302f2ed1be0c2878",
+  "renderer": "viewer/lib/replay.ts",
+  "renderer_sha256": "0a2810e290a9f883014b4b400831a4bcc5d53f61fb304588b99a8ed05b6abc82",
+  "timing": "4 s source context, 28 s edited event replay, 8 s measured results",
+  "video": "output/flyocr-calibrated-heading.mp4",
+  "motion": "presentation cursor, not a simulated body",
+  "measured_inference_seconds": 4.469216498546302,
+  "atlas_renderer_sha256": "6b1fed38caf0381e3cd1a8f26f6cd8a6c3971e2d10de2f59a86c5ed7578bff47"
+}

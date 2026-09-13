@@ -1,0 +1,433 @@
+{
+  "run_sha256": "3a4610ea97e07ab1f63751c1e3a420abbf718ea2eec9bd24c85f26a564b451af",
+  "truth_sha256": "9a8d2502782dd2001fa0e02a3d341a859c884bd1246d2c7c7c5561a4bf51fac1",
+  "n_cells": 45,
+  "correct_cells": 44,
+  "cell_exact_match": 0.9777777777777777,
+  "character_error_rate": 0.0033444816053511705,
+  "edit_errors": 1,
+  "truth_characters": 299,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 45,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01-c01",
+      "truth": "(5,746)",
+      "prediction": "(5,746)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r01-c02",
+      "truth": "5,250",
+      "prediction": "5,250",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r01-c03",
+      "truth": "0",
+      "prediction": "0",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 1,
+      "segmented_glyphs": 1
+    },
+    {
+      "row_id": "r02-c01",
+      "truth": "0",
+      "prediction": "0",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 1,
+      "segmented_glyphs": 1
+    },
+    {
+      "row_id": "r02-c02",
+      "truth": "24,395",
+      "prediction": "24,395",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r02-c03",
+      "truth": "0",
+      "prediction": "0",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 1,
+      "segmented_glyphs": 1
+    },
+    {
+      "row_id": "r03-c01",
+      "truth": "(3,216)",
+      "prediction": "(3,216)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r03-c02",
+      "truth": "(29,070)",
+      "prediction": "(29,070)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r03-c03",
+      "truth": "(2,750)",
+      "prediction": "(2,750)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r04-c01",
+      "truth": "2,056",
+      "prediction": "2,056",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r04-c02",
+      "truth": "2,002",
+      "prediction": "2,002",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r04-c03",
+      "truth": "1,866",
+      "prediction": "1,866",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r05-c01",
+      "truth": "(18,420)",
+      "prediction": "(18,420)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r05-c02",
+      "truth": "(17,254)",
+      "prediction": "(17,254)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r05-c03",
+      "truth": "(22,245)",
+      "prediction": "(22,245)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r06-c01",
+      "truth": "(24,082)",
+      "prediction": "(24,082)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r06-c02",
+      "truth": "(21,771)",
+      "prediction": "(21,771)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r06-c03",
+      "truth": "(19,800)",
+      "prediction": "(19,800)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r07-c01",
+      "truth": "(2,291)",
+      "prediction": "(2,291)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r07-c02",
+      "truth": "(1,309)",
+      "prediction": "(1,309)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r07-c03",
+      "truth": "(1,006)",
+      "prediction": "(1,006)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r08-c01",
+      "truth": "(51,699)",
+      "prediction": "(51,699)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r08-c02",
+      "truth": "(37,757)",
+      "prediction": "(37,757)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r08-c03",
+      "truth": "(43,935)",
+      "prediction": "(43,935)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r09-c01",
+      "truth": "(64,551)",
+      "prediction": "(64,551)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r09-c02",
+      "truth": "(44,477)",
+      "prediction": "(44,477)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r09-c03",
+      "truth": "(28,103)",
+      "prediction": "(28,107)",
+      "exact": false,
+      "edit_distance": 1,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r10-c01",
+      "truth": "(5,978)",
+      "prediction": "(5,978)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r10-c02",
+      "truth": "(69,132)",
+      "prediction": "(69,132)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r10-c03",
+      "truth": "(1,670)",
+      "prediction": "(1,670)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r11-c01",
+      "truth": "(29,775)",
+      "prediction": "(29,775)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r11-c02",
+      "truth": "(17,732)",
+      "prediction": "(17,732)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r11-c03",
+      "truth": "(37,651)",
+      "prediction": "(37,651)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r12-c01",
+      "truth": "16,079",
+      "prediction": "16,079",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r12-c02",
+      "truth": "24,775",
+      "prediction": "24,775",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r12-c03",
+      "truth": "33,510",
+      "prediction": "33,510",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r13-c01",
+      "truth": "9,309",
+      "prediction": "9,309",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r13-c02",
+      "truth": "10,894",
+      "prediction": "10,894",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r13-c03",
+      "truth": "14,354",
+      "prediction": "14,354",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r14-c01",
+      "truth": "2,317",
+      "prediction": "2,317",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r14-c02",
+      "truth": "(1,298)",
+      "prediction": "(1,298)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r14-c03",
+      "truth": "(3,116)",
+      "prediction": "(3,116)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r15-c01",
+      "truth": "(72,599)",
+      "prediction": "(72,599)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r15-c02",
+      "truth": "(96,970)",
+      "prediction": "(96,970)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r15-c03",
+      "truth": "(22,680)",
+      "prediction": "(22,680)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    }
+  ],
+  "threshold_met": true,
+  "scope": "manually selected numeric table region; pixel column and row inference; no correction",
+  "uncertainty": "Selected examples, not a representative general table benchmark.",
+  "expected_shape": [
+    15,
+    3
+  ],
+  "predicted_shape": [
+    15,
+    3
+  ],
+  "shape_match": true,
+  "table_exact_match": false
+}

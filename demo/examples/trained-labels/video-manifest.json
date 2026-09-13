@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "seconds": 40,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "frames": 960,
+  "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+  "source": "demo/examples/trained-labels/run.json",
+  "run_sha256": "7254e9c7d0a44d4f528098324686411cfe3e98167bb2ca0267c4850512dfba97",
+  "video_sha256": "0c2a5909bfa585b65b6f8ad0504234219e1611c5d99aa4ad4afd396885b9df2f",
+  "renderer": "viewer/lib/replay.ts",
+  "renderer_sha256": "0a2810e290a9f883014b4b400831a4bcc5d53f61fb304588b99a8ed05b6abc82",
+  "timing": "4 s source context, 28 s edited event replay, 8 s measured results",
+  "video": "output/flyocr-trained-labels.mp4",
+  "motion": "presentation cursor, not a simulated body",
+  "measured_inference_seconds": 14.976062000263482,
+  "atlas_renderer_sha256": "6b1fed38caf0381e3cd1a8f26f6cd8a6c3971e2d10de2f59a86c5ed7578bff47"
+}

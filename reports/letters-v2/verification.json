@@ -1,0 +1,16 @@
+{
+  "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+  "source_arrays_unchanged": {
+    "ptr": true,
+    "post": true,
+    "weight": true,
+    "uv": true
+  },
+  "decoder_seconds_per_glyph": {
+    "original": 0.0007056376292894128,
+    "selected": 0.001116789909428917
+  },
+  "evaluation_wall_seconds": 392.2929815002717,
+  "new_fresh_accuracy": 0.8492647058823529,
+  "old_fresh_accuracy": 0.7775735294117647
+}

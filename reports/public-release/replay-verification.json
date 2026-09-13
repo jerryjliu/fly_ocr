@@ -1,0 +1,95 @@
+{
+  "recordings": [
+    {
+      "run": "demo/run",
+      "verified_events": 120,
+      "verified_rows": 19,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/calibrated-heading",
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/calibrated-labels",
+      "verified_events": 43,
+      "verified_rows": 2,
+      "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/calibrated-labels-more",
+      "verified_events": 105,
+      "verified_rows": 5,
+      "artifact_id": "7c8627b62617cc10939ab8b0ec964874e3c1b0b48c2cd364937f677517e6e0b6",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/cash-flow",
+      "verified_events": 299,
+      "verified_rows": 45,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/income-table",
+      "verified_events": 108,
+      "verified_rows": 21,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/letters",
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/tilted-table",
+      "verified_events": 121,
+      "verified_rows": 33,
+      "artifact_id": "a8a96ca283230f5520b4c3379acb3a373fad0f290b5020b2a11db5e7e88aa853",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/trained-heading",
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/trained-labels",
+      "verified_events": 43,
+      "verified_rows": 2,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    },
+    {
+      "run": "demo/examples/trained-labels-more",
+      "verified_events": 105,
+      "verified_rows": 5,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    }
+  ],
+  "events": 983,
+  "network_required": false,
+  "graph_required": false
+}

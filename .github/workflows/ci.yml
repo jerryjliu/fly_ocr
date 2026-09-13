@@ -1,0 +1,28 @@
+name: numerical-and-integrity-checks
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --python 3.11 --extra dev --locked
+      - run: uv run pytest -q
+      - run: uv run flyocr verify-replay
+  viewer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: viewer/package-lock.json
+      - run: npm ci
+        working-directory: viewer
+      - run: npx tsc --noEmit
+        working-directory: viewer
+      - run: npm run build
+        working-directory: viewer
+      - run: npm run check:replay
+        working-directory: viewer

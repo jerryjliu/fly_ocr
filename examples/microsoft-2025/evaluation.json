@@ -1,0 +1,81 @@
+{
+  "annotation": "Human-readable source pixels checked by implementer; kept outside runtime package and not passed to recognizer. All 19 originally selected cells. Currency signs are scored.",
+  "rows": [
+    {
+      "row_id": "r01",
+      "raw": "$63,946"
+    },
+    {
+      "row_id": "r02",
+      "raw": "217,778"
+    },
+    {
+      "row_id": "r03",
+      "raw": "281,724"
+    },
+    {
+      "row_id": "r04",
+      "raw": "13,501"
+    },
+    {
+      "row_id": "r05",
+      "raw": "74,330"
+    },
+    {
+      "row_id": "r06",
+      "raw": "87,831"
+    },
+    {
+      "row_id": "r07",
+      "raw": "193,893"
+    },
+    {
+      "row_id": "r08",
+      "raw": "32,488"
+    },
+    {
+      "row_id": "r09",
+      "raw": "25,654"
+    },
+    {
+      "row_id": "r10",
+      "raw": "7,223"
+    },
+    {
+      "row_id": "r11",
+      "raw": "128,528"
+    },
+    {
+      "row_id": "r12",
+      "raw": "(4,901)"
+    },
+    {
+      "row_id": "r13",
+      "raw": "123,627"
+    },
+    {
+      "row_id": "r14",
+      "raw": "21,795"
+    },
+    {
+      "row_id": "r15",
+      "raw": "$101,832"
+    },
+    {
+      "row_id": "r16",
+      "raw": "$13.70"
+    },
+    {
+      "row_id": "r17",
+      "raw": "$13.64"
+    },
+    {
+      "row_id": "r18",
+      "raw": "7,433"
+    },
+    {
+      "row_id": "r19",
+      "raw": "7,465"
+    }
+  ]
+}

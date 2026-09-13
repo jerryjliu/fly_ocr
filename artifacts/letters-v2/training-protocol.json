@@ -1,0 +1,62 @@
+{
+  "source_artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+  "corpus_id": "001132c94f42a7994dc52548aa10d8ffd025675dfc84ef9a0fc5ba1ca5655f19",
+  "model_id": "6a05564214a7bf206021bb0de83fe392e9984828c89402d8ec57b4ad66a28e4d",
+  "graph_id": "8b28f61727e73f35411fe7b85000e2aa4a5ab168a95ab56ab8ea20d09f3b5148",
+  "input_projection_sha256": "3408b3342006433027dfbd06ec0169458362041f715d81282db395512ae138d5",
+  "feature_selection": "Same training-only variance rule: 8 glyphs/class, 1024 downstream cells",
+  "head_candidates": [
+    {
+      "name": "raw64",
+      "count_transform": "identity",
+      "hidden": [
+        64
+      ]
+    },
+    {
+      "name": "sqrt64",
+      "count_transform": "sqrt",
+      "hidden": [
+        64
+      ]
+    },
+    {
+      "name": "sqrt64x32",
+      "count_transform": "sqrt",
+      "hidden": [
+        64,
+        32
+      ]
+    },
+    {
+      "name": "sqrt128x64",
+      "count_transform": "sqrt",
+      "hidden": [
+        128,
+        64
+      ]
+    }
+  ],
+  "optimizer": "AdamW",
+  "learning_rate": 0.002,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "max_epochs": 120,
+  "patience": 18,
+  "batch_size": 256,
+  "seed": 817,
+  "head_selection": "Best validation accuracy; ties prefer fewer parameters",
+  "validation_access": true,
+  "test_access_before_checkpoint_freeze": false,
+  "fresh_holdout": {
+    "fonts": [
+      "Verdana",
+      "Georgia"
+    ],
+    "samples_per_font_per_class": 4,
+    "seed": 20260914,
+    "generated_after_freeze": true
+  },
+  "budget": "Two local workers; one 100ms circuit presentation per glyph; max 540000 head parameters",
+  "internal_synapses_learned": false
+}

@@ -1,0 +1,189 @@
+{
+  "run_sha256": "9b6067baeee738f090a55d87bd18a16a5b3c83f446109aa4a440a28f4cc652a3",
+  "truth_sha256": "01d937e435283cd5690b062d7c08a29743ce8f2f9e056f4a486775fada1dc0c4",
+  "n_cells": 19,
+  "correct_cells": 18,
+  "cell_exact_match": 0.9473684210526315,
+  "character_error_rate": 0.008333333333333333,
+  "edit_errors": 1,
+  "truth_characters": 120,
+  "coverage": 1.0,
+  "glyph_count_match_cells": 19,
+  "extra_rows": [],
+  "rows": [
+    {
+      "row_id": "r01",
+      "truth": "$63,946",
+      "prediction": "$63,946",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r02",
+      "truth": "217,778",
+      "prediction": "217,778",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r03",
+      "truth": "281,724",
+      "prediction": "281,724",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r04",
+      "truth": "13,501",
+      "prediction": "13,501",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r05",
+      "truth": "74,330",
+      "prediction": "74,330",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r06",
+      "truth": "87,831",
+      "prediction": "87,831",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r07",
+      "truth": "193,893",
+      "prediction": "193,893",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r08",
+      "truth": "32,488",
+      "prediction": "32,488",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r09",
+      "truth": "25,654",
+      "prediction": "25,654",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r10",
+      "truth": "7,223",
+      "prediction": "7,223",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r11",
+      "truth": "128,528",
+      "prediction": "128,528",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r12",
+      "truth": "(4,901)",
+      "prediction": "(4,901)",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r13",
+      "truth": "123,627",
+      "prediction": "123,627",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 7,
+      "segmented_glyphs": 7
+    },
+    {
+      "row_id": "r14",
+      "truth": "21,795",
+      "prediction": "21,795",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r15",
+      "truth": "$101,832",
+      "prediction": "$101,832",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 8,
+      "segmented_glyphs": 8
+    },
+    {
+      "row_id": "r16",
+      "truth": "$13.70",
+      "prediction": "$13.70",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r17",
+      "truth": "$13.64",
+      "prediction": "$13.64",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 6,
+      "segmented_glyphs": 6
+    },
+    {
+      "row_id": "r18",
+      "truth": "7,433",
+      "prediction": "7,433",
+      "exact": true,
+      "edit_distance": 0,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    },
+    {
+      "row_id": "r19",
+      "truth": "7,465",
+      "prediction": "7.465",
+      "exact": false,
+      "edit_distance": 1,
+      "expected_glyphs": 5,
+      "segmented_glyphs": 5
+    }
+  ],
+  "threshold_met": true,
+  "scope": "one manually selected column; automatic pixel glyph segmentation; no text correction",
+  "uncertainty": "One document column; not evidence of general PDF OCR performance."
+}

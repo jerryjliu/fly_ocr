@@ -1,0 +1,94 @@
+{
+  "replays": {
+    "trained-heading": {
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    },
+    "trained-labels": {
+      "verified_events": 43,
+      "verified_rows": 2,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    },
+    "trained-labels-more": {
+      "verified_events": 105,
+      "verified_rows": 5,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    }
+  },
+  "python_tests": 21,
+  "typescript": true,
+  "frontend_build": true,
+  "timeline_checks": true,
+  "installed_inference": {
+    "verified": {
+      "verified_events": 13,
+      "verified_rows": 1,
+      "artifact_id": "1ea442a7702901ae5f83860fcbd179a11b10b8c66432afe02cf2b6d1e70280bc",
+      "network_required": false,
+      "graph_required": false
+    },
+    "counts_and_scores_identical": true,
+    "original_internal_weights_unchanged": true,
+    "cli_flag": "--letters"
+  },
+  "videos": {
+    "videos": [
+      {
+        "id": "trained-heading",
+        "video_sha256": "5d103d7e446927da224e19f21f199168eb28f2d43941bd48b499ae1116fc1691",
+        "frames_decoded": 960,
+        "seconds": 40.0,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "run_sha256": "ec0802c43586c8890c0315d6e84aa730b1999caedc0ecc4c7cfe0a53061320c3",
+        "decoded_frames": [
+          0,
+          360,
+          959
+        ],
+        "decode_errors": ""
+      },
+      {
+        "id": "trained-labels",
+        "video_sha256": "a3039956135506aa8a19cc3dea1c930ac014dccedb14cd078fdb9eedabef9933",
+        "frames_decoded": 960,
+        "seconds": 40.0,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "run_sha256": "af6cb952f7ee776b2a7844f6541c6bfbaaa2c17032faa535ad874cfacd3e8941",
+        "decoded_frames": [
+          0,
+          360,
+          959
+        ],
+        "decode_errors": ""
+      },
+      {
+        "id": "trained-labels-more",
+        "video_sha256": "83811bf59cf77143968eaacbfac68a8073763d10577cbc552b289df3f6b77397",
+        "frames_decoded": 960,
+        "seconds": 40.0,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "run_sha256": "0eaf04666f2004b9994e399e9a84f5a12501ba5dbe341a72217c3bab80d86a7c",
+        "decoded_frames": [
+          0,
+          360,
+          959
+        ],
+        "decode_errors": ""
+      }
+    ]
+  },
+  "visual_review": "Decoded middle/final frames inspected for all three videos; source zoom preserves all ink from each selected region."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "trained-labels-more",
+  "title": "Reading five lines of report text",
+  "caption": "More balance-sheet labels",
+  "source": "Microsoft 2025 Annual Report \u00b7 PDF page 42",
+  "page": 42,
+  "region": [
+    0.065,
+    0.343,
+    0.72,
+    0.417
+  ],
+  "note": "Five complete selected lines. Closed English alphabet and numeric punctuation; no word correction.",
+  "pdf_sha256": "e88c300dcc58dcc93a88fa4afc6bd7b2e63a2095c7a6479d49d57692e1d19a6d",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245177/d61995dars.pdf",
+  "selection": "Three source regions selected while readout training was still running, before letter predictions. All selected lines will be reported. These PDF pixels informed segmentation development, not neural fitting."
+}

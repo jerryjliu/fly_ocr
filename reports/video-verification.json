@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "ffmpeg_version": "7.1 built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, unknown/bt709/iec61966-2-1, progressive)",
+    "fps": 24.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "rotate": 0,
+    "duration": 40.0
+  },
+  "decoded_frames": 960,
+  "all_frames_decoded": true,
+  "video_sha256": "2885397cb8ae9155955f6b2fc2e221e9373a2839e5bdac41294448157f085da6",
+  "visual_review": "Opening, in-progress and final frames inspected; vector status marks avoid font fallback; full clip decoded."
+}
