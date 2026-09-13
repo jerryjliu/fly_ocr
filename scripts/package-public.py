@@ -39,7 +39,7 @@ def files():
   if rel.parts[:2] in [('viewer','public')] and rel.parts[2] not in ['fonts','favicon.svg']:continue
   if rel.parts[0]=='viewer' and p.name.startswith('.') and p.name!='.gitignore':continue
   if rel.parts[0]=='reports' and p.name in BLOCKED_REPORTS:continue
-  if p.name in {'release-manifest.json','release-manifest.py'}:continue  # replaced by current export manifest
+  if p.name in {'release-manifest.json','release-manifest.py','next-env.d.ts'}:continue  # replaced by current export manifest
   yield p,rel
 
 def audit(selected):
@@ -60,7 +60,16 @@ def main():
  selected=sorted(files(),key=lambda x:str(x[1]));findings=audit(selected)
  if findings:print(json.dumps({'findings':findings},indent=2));raise SystemExit('Public export audit failed')
  print('Audit passed:',len(selected),'files; no credential patterns or private home paths found')
- if args.audit_only:return
+ if args.audit_only:
+  manifest_path=ROOT/'PUBLIC_MANIFEST.json'
+  if manifest_path.exists():
+   manifest=json.loads(manifest_path.read_text())
+   for name,expected in manifest['files'].items():
+    path=ROOT/name
+    if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
+     raise ValueError('Public manifest mismatch: '+name)
+   print('Public manifest verified:',len(manifest['files']),'files')
+  return
  output=(ROOT/args.output).resolve()
  if ROOT not in output.parents or not output.is_relative_to(ROOT/'output'):raise ValueError('Export must be under ignored output/')
  package=output/'fly_ocr'

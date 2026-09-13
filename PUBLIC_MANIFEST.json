@@ -1343,7 +1343,7 @@
     "scripts/fit-letters-v2.py": "e5f7cada850db5b141d97443c6b047d68bdce9db57127357bb0328e81b68e9f3",
     "scripts/freeze-pilot.py": "c7cf56a8d1c485a48bdae67068a18a9511262932d9920c647b7abed2a27bbf37",
     "scripts/more-examples.py": "41a22904e46abe691124af7b4d311813d1042ece7b0f496e7925f9c11284b656",
-    "scripts/package-public.py": "aeaf40c20ece8c9b29302451c2a3f92436aebe5b746114db5c791bd06863be97",
+    "scripts/package-public.py": "a01dbcfe67ad33338369123087a4958a1287d467918816f597b50ee6b66c1384",
     "scripts/preflight.py": "108c75334ffb30b9c66f85aa3a8c52f1d1f05c7fea0ea4bd76108aa9dfd4c061",
     "scripts/record-letters-v2.py": "5e91bf1f46c29a824e194d910661a93068972808d31bbfaea0b2e0eab320e196",
     "scripts/record-letters.py": "076ac6dcabd8221d90337ab4581ed990cfd253c04ea41d980c916366830082f3",
@@ -1418,7 +1418,6 @@
     "viewer/lib/retina.ts": "6b1fed38caf0381e3cd1a8f26f6cd8a6c3971e2d10de2f59a86c5ed7578bff47",
     "viewer/lib/utils.ts": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
     "viewer/main.tsx": "2c1319e98ccd371c3ad56962431f4ea4f6f288efee0f1edc06349d63b9337f27",
-    "viewer/next-env.d.ts": "a291a6b60536fec0a3b9d4ffd6d51179b463e9bc20281d7499d756813b4c07d5",
     "viewer/package-lock.json": "82caa8c7eca5e9cc717b938665bf3d57b08fd710f10504b870755c4d3ac63617",
     "viewer/package.json": "75bfec4fd376faff938bf88bcb72a949bdb9010353516392f61d2e74e1c5f3ee",
     "viewer/public/favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
@@ -1431,7 +1430,7 @@
     "viewer/tsconfig.json": "ef428709c225e532fc5e06e8d614eb7b7730330170cab4432feb553eb243829d",
     "viewer/vite.config.ts": "4e964a50b3233cef062f3abad9f7886f0b8c27e0206bebf9f4b7e49bfa3830ea"
   },
-  "files_count": 1429,
+  "files_count": 1428,
   "audit": {
     "credential_patterns": [
       "private_key",
